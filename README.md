@@ -31,4 +31,9 @@ My name is Phu Thanh. I am a Computer Science bachelor, majoring in Knowledge En
 <a href="https://github.com/LePhuThanh/chatterbot/">
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=chatterbot&theme=synthwave" />
 </a>   
+
+<a href="https://github.com/LePhuThanh/Airline-Reservation-Project/">
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=highcontrast" />
+</a> 
+
 <!--Reference: https://github.com/anuraghazra/github-readme-stats-->
