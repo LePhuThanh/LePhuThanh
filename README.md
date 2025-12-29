@@ -1,5 +1,5 @@
 ### WELCOME TO MY PAGE 👋👋👋
-My name is Phu Thanh. I am a Computer Science bachelor, majoring in Knowledge Engineering from the University of Science, Ho Chi Minh City, Vietnam. I am interested in the following topics: Web Development (Java, ReactJS), Deep Learning in NLP.<br>
+My name is Phu Thanh. I am a Computer Science bachelor, majoring in Computer Science from the University of Science, Ho Chi Minh City, Vietnam. I am interested in the following topics: Web Development (Java, Spring Boot, Spring Data JPA, Spring Security, Spring Cloud, ReactJS), Deep Learning in NLP.<br>
 ## 📫 How to reach me: 
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/phuthanhle/) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/LePhuThanh) [![Youtube]() Youtube](https://www.youtube.com/@hoamipubgm73)
