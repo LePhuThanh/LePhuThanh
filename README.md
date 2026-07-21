@@ -11,33 +11,6 @@ I'm passionate about designing scalable backend systems and building modern web 
 - ⚛️ ReactJS
 - 🤖 Natural Language Processing (NLP) & Deep Learning I enjoy learning new technologies, solving challenging engineering problems, and building clean, maintainable software.
 --- 
-
-## 🛠 Tech Stack 
-### Backend 
-- Java
-- Spring Boot
-- Spring MVC
-- Spring Security
-- Spring Data JPA
-- Spring Cloud
-- Vert.x
-- Hibernate
-
-### Database 
-- MySQL
-- SQL Server
-- Oracle Database
-- MongoDB
-
-### DevOps & Tools 
-- Docker
-- Git & GitHub
-- Maven
-- Gradle
-- IntelliJ IDEA
-- Postman
----
-
 ## 📫 Connect with Me: 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png)LinkedIn](https://www.linkedin.com/in/phuthanhle/) 
 [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/LePhuThanh) 
@@ -46,7 +19,7 @@ I'm passionate about designing scalable backend systems and building modern web 
 ## 📊 GitHub Statistics
 ![Thanh's github stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LePhuThanh&show_icons=true&theme=tokyonight&hide=contribs,prs,issues)
 
-# 🚀 Featured Projects
+## 🚀 Featured Projects
 <a href="https://github.com/LePhuThanh/microservice-eventSourcing/">
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=microservice-eventSourcing&theme=highcontrast" />
 </a>
@@ -94,9 +67,34 @@ I'm passionate about designing scalable backend systems and building modern web 
 <a href="https://github.com/LePhuThanh/demoDocker/">
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=demoDocker&theme=onedark" />
 </a>
-
 ---
 
+## 🛠 Tech Stack 
+### Backend 
+- Java
+- Spring Boot
+- Spring MVC
+- Spring Security
+- Spring Data JPA
+- Spring Cloud
+- Vert.x
+- Hibernate
+
+### Database 
+- MySQL
+- SQL Server
+- Oracle Database
+- MongoDB
+
+### DevOps & Tools 
+- Docker
+- Git & GitHub
+- Maven
+- Gradle
+- IntelliJ IDEA
+- Postman
+
+---
 > *"Code with purpose. Learn continuously. Build solutions that matter."*
 
 <!--Reference: https://github.com/anuraghazra/github-readme-stats-->
