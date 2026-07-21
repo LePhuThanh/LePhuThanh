@@ -1,70 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="320"
+     viewBox="0 0 1200 320">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
-  <rect width="1200" height="320" fill="url(#bgGradient)"/>
-    <text x="600" y="120" fill="url(#gradient)" font-size="54" text-anchor="middle" font-family="Segoe UI">
-      PHELIM
-      <animate
-        attributeName="opacity"
-        from="0"
-        to="1"
-        dur="2s"
-        fill="freeze"/>
-    </text>
-    
-    <text x="600" y="170" fill="#58A6FF" font-size="24" text-anchor="middle">
-      Java Backend Developer
-      <animate
-        attributeName="opacity"
-        from="0"
-        to="1"
-        begin="2s"
-        dur="2s"
-        fill="freeze"/>
-    </text>
-  
-  <!-- Cursor -->
-  <rect x="720" y="85" width="5" height="55" fill="#58A6FF">
-      <animate
-        attributeName="opacity"
-        values="1;0;1"
-        begin="4s"
-        dur="1s"
-        repeatCount="indefinite"/>
-  </rect>
+    <!-- ===================================================== -->
+    <!-- Definitions -->
+    <!-- ===================================================== -->
 
-  <!-- Gradient -->
-  <defs>
-    <linearGradient id="gradient">
-        <stop
-            offset="0%"
-            stop-color="#58A6FF"/>
-        <stop
-            offset="50%"
-            stop-color="#6DB33F"/>
-        <stop
-            offset="100%"
-            stop-color="#ED8B00"/>
+    <defs>
+        <!-- Title Gradient -->
+        <linearGradient
+                id="gradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%">
+            <stop offset="0%" stop-color="#58A6FF"/>
+            <stop offset="50%" stop-color="#6DB33F"/>
+            <stop offset="100%" stop-color="#ED8B00"/>
+            <animate
+                    attributeName="x1"
+                    values="-100%;100%;-100%"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+        </linearGradient>
+
+        <!-- Background Gradient -->
+        <linearGradient
+                id="bgGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%">
+
+            <stop offset="0%" stop-color="#0D1117"/>
+            <stop offset="100%" stop-color="#161B22"/>
+
+            <animate
+                    attributeName="x2"
+                    values="0%;100%;0%"
+                    dur="15s"
+                    repeatCount="indefinite"/>
+
+        </linearGradient>
+
+    </defs>
+
+    <!-- ===================================================== -->
+    <!-- Background -->
+    <!-- ===================================================== -->
+
+    <rect
+            width="1200"
+            height="320"
+            fill="url(#bgGradient)"/>
+
+    <!-- ===================================================== -->
+    <!-- Network -->
+    <!-- ===================================================== -->
+
+    <!-- Connection -->
+
+    <line
+            x1="150"
+            y1="70"
+            x2="300"
+            y2="120"
+            stroke="#30363D"
+            stroke-width="2"/>
+
+    <line
+            x1="300"
+            y1="120"
+            x2="500"
+            y2="90"
+            stroke="#30363D"
+            stroke-width="2"/>
+
+    <!-- Node 1 -->
+
+    <circle
+            cx="150"
+            cy="70"
+            r="5"
+            fill="#58A6FF">
+
         <animate
-          attributeName="x1"
-          values="-100%;100%;-100%"
-          dur="6s"
-          repeatCount="indefinite"/>
-    </linearGradient>
+                attributeName="r"
+                values="5;7;5"
+                dur="2s"
+                repeatCount="indefinite"/>
 
-    <linearGradient id="bgGradient">
-      <stop
-        offset="0%"
-        stop-color="#0D1117"/>
-      <stop
-        offset="100%"
-        stop-color="#161B22"/>
-      <animate
-        attributeName="x2"
-        values="0%;100%;0%"
-        dur="15s"
-        repeatCount="indefinite"/>
-    </linearGradient>
-</defs>
+    </circle>
 
-  
+    <!-- Node 2 -->
+
+    <circle
+            cx="300"
+            cy="120"
+            r="5"
+            fill="#58A6FF">
+
+        <animate
+                attributeName="r"
+                values="5;7;5"
+                dur="2s"
+                repeatCount="indefinite"/>
+
+    </circle>
+
+    <!-- Node 3 -->
+
+    <circle
+            cx="500"
+            cy="90"
+            r="5"
+            fill="#58A6FF">
+
+        <animate
+                attributeName="r"
+                values="5;7;5"
+                dur="2s"
+                repeatCount="indefinite"/>
+
+    </circle>
+
+    <!-- ===================================================== -->
+    <!-- Title -->
+    <!-- ===================================================== -->
+
+    <text
+            x="600"
+            y="120"
+            fill="url(#gradient)"
+            font-size="54"
+            font-family="Segoe UI"
+            font-weight="bold"
+            text-anchor="middle">
+
+        PHELIM
+
+        <animate
+                attributeName="opacity"
+                from="0"
+                to="1"
+                dur="2s"
+                fill="freeze"/>
+
+    </text>
+
+    <!-- ===================================================== -->
+    <!-- Subtitle -->
+    <!-- ===================================================== -->
+
+    <text
+            x="600"
+            y="170"
+            fill="#58A6FF"
+            font-size="24"
+            text-anchor="middle"
+            font-family="Segoe UI">
+
+        Java Backend Developer
+
+        <animate
+                attributeName="opacity"
+                from="0"
+                to="1"
+                begin="2s"
+                dur="2s"
+                fill="freeze"/>
+
+    </text>
+
+    <!-- ===================================================== -->
+    <!-- Cursor -->
+    <!-- ===================================================== -->
+
+    <rect
+            x="720"
+            y="84"
+            width="5"
+            height="55"
+            rx="2"
+            fill="#58A6FF">
+
+        <animate
+                attributeName="opacity"
+                values="1;0;1"
+                begin="4s"
+                dur="1s"
+                repeatCount="indefinite"/>
+
+    </rect>
+
 </svg>
