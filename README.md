@@ -1,7 +1,7 @@
 <!--Header-->
-<h1 align="center">Hi👋, I'm Phelim!</h1>
+<h1 align="center">Hi 👋, I'm Phelim <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=160&height=35&lines=☕"/></h1>
 <h3 align="center">
-Backend Java Developer • Spring Boot • Microservices • Reactive Programming
+Backend Java Developer | Spring Boot | Microservices | Reactive Programming
 </h3>
 <p align="center">
 Building scalable backend systems with Java & Spring Ecosystem 🚀
@@ -85,11 +85,11 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 </a> 
 
 <a href="https://github.com/LePhuThanh/Airline-Reservation-Project/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=gruvbox&v=2" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=gruvbox&cache_seconds=1" />
 </a>
 
 <a href="https://github.com/LePhuThanh/java-database-capstone/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=java-database-capstone&theme=tokyonight&v=2" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=java-database-capstone&theme=tokyonight&cache_seconds=1" />
 </a>
 
 </p>
@@ -102,6 +102,10 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 ### Backend
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,docker,kafka,mongodb,mysql,postgres,redis,react,git,maven,gradle,idea,postman"/>
+</p>
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot)
 
