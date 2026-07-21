@@ -39,13 +39,13 @@ Building scalable backend systems with Java & Spring Ecosystem 🚀
 </p>
 
 <!--GitHub Statistics-->
-## 📊 GitHub Statistics
-<p align="center">
+<!--## 📊 GitHub Statistics-->
+<!-- <p align="center">
 <img width="49%"
 src="https://github-readme-stats.vercel.app/api?username=LePhuThanh&show_icons=true&theme=tokyonight&cache_seconds=1800"/>
 <img width="49%"
 src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&layout=compact&theme=tokyonight&cache_seconds=1800"/>
-</p>
+</p> -->
 
 <!--GitHub Streak-->
 ## 🔥 GitHub Streak
@@ -69,43 +69,43 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 <p align="center">
 
 <a href="https://github.com/LePhuThanh/microservice-eventSourcing/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=microservice-eventSourcing&theme=highcontrast" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=microservice-eventSourcing&theme=highcontrast&cache_seconds=1" />
 </a>
 
 <a href="https://github.com/LePhuThanh/love-certificate/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=love-certificate&theme=merko" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=love-certificate&theme=merko&cache_seconds=1" />
 </a>
 
 <a href="https://github.com/LePhuThanh/ReviewFood/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=ReviewFood&theme=radical" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=ReviewFood&theme=radical&cache_seconds=1" />
 </a>
 
 <a href="https://github.com/LePhuThanh/api-gateway-vertx-project/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=api-gateway-vertx-project&theme=cobalt" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=api-gateway-vertx-project&theme=cobalt&cache_seconds=1" />
 </a> 
 
 <a href="https://github.com/LePhuThanh/Airline-Reservation-Project/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=highcontrast" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=highcontrast&cache_seconds=1" />
 </a>
 
 <a href="https://github.com/LePhuThanh/java-database-capstone/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=java-database-capstone&theme=tokyonight" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=java-database-capstone&theme=tokyonight&cache_seconds=1" />
 </a>
 
 <a href="https://github.com/LePhuThanh/SpringMVC_CRUD_JSP/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=SpringMVC_CRUD_JSP&theme=gruvbox" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=SpringMVC_CRUD_JSP&theme=gruvbox&cache_seconds=1" />
 </a>
 
 <a href="https://github.com/LePhuThanh/Spring-boot-tutorial/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Spring-boot-tutorial&theme=cobalt" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Spring-boot-tutorial&theme=cobalt&cache_seconds=1" />
 </a>
 
 <a href="https://github.com/LePhuThanh/chatterbot/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=chatterbot&theme=synthwave" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=chatterbot&theme=synthwave&cache_seconds=1" />
 </a>
 
 <a href="https://github.com/LePhuThanh/Database-Security/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Database-Security&theme=onedark" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Database-Security&theme=onedark&cache_seconds=1" />
 </a> 
 
 </p>
