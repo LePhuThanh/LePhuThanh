@@ -1,5 +1,5 @@
 <!--Header-->
-<h1 align="center">Hi👋, I'm Phelim, welcome to my GitHub profile!</h1>
+<h1 align="center">Hi👋, I'm Phelim!</h1>
 <h3 align="center">
 Backend Java Developer • Spring Boot • Microservices • Reactive Programming
 </h3>
@@ -40,7 +40,12 @@ Building scalable backend systems with Java & Spring Ecosystem 🚀
 
 <!--GitHub Statistics-->
 ## 📊 GitHub Statistics
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LePhuThanh&show_icons=true&theme=tokyonight"/>
+<p align="center">
+<img width="49%"
+src="https://github-readme-stats.vercel.app/api?username=LePhuThanh&show_icons=true&theme=tokyonight&cache_seconds=1800"/>
+<img width="49%"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&layout=compact&theme=tokyonight&cache_seconds=1800"/>
+</p>
 
 <!--GitHub Streak-->
 ## 🔥 GitHub Streak
@@ -48,9 +53,16 @@ Building scalable backend systems with Java & Spring Ecosystem 🚀
   <img src="https://streak-stats.demolab.com?user=LePhuThanh&theme=tokyonight"/>
 </p>
 
-<!--GitHub Trophy-->
-## 🏆 GitHub Trophy
-<img src="https://github-profile-trophy.vercel.app/?username=LePhuThanh&theme=algolia&no-frame=true&row=2&column=4"/>
+<!--GitHub Summary-->
+## 📈 GitHub Summary
+<p align="center">
+  <img width="32%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LePhuThanh&theme=tokyonight"/>
+  <img width="32%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=LePhuThanh&theme=tokyonight"/>
+  <img width="32%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LePhuThanh&theme=tokyonight"/>
+</p>
 
 <!--Featured Projects-->
 ## 🚀 Featured Projects
