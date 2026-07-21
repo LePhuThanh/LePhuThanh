@@ -85,28 +85,25 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 </a> 
 
 <a href="https://github.com/LePhuThanh/Airline-Reservation-Project/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=gruvbox&cache_seconds=1" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=gruvbox&v=2" />
 </a>
 
 <a href="https://github.com/LePhuThanh/java-database-capstone/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=java-database-capstone&theme=tokyonight&cache_seconds=1" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=java-database-capstone&theme=tokyonight&v=2" />
 </a>
 
 </p>
 
 <!--Tech Stack-->
 ## 🛠 Tech Stack
-
-### Languages
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-### Backend
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,docker,kafka,mongodb,mysql,postgres,redis,react,git,maven,gradle,idea,postman"/>
 </p>
 
+### Languages
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+### Backend
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot)
 
 ![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge)
@@ -114,6 +111,24 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge)
 
 ![Vert.x](https://img.shields.io/badge/Vert.x-782A90?style=for-the-badge)
+
+## 🛠 Tech Stack
+
+### Core Technologies
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vert.x-782A90?style=for-the-badge&logo=eclipse-vert.x&logoColor=white"/>
+</p>
+
+### Tools & Platforms
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,kafka,redis,mysql,mongodb,oracle,git,github,maven,gradle,idea,postman,react"/>
+</p>
 
 <!--Contribution Snake-->
 ## 🐍 Contribution Snake
