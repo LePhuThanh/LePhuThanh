@@ -114,7 +114,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
   <img src="https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
   <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MyBatis-C71A36?style=for-the-badge&logoColor=white"/>
   <img src="https://img.shields.io/badge/Vert.x-782A90?style=for-the-badge&logoColor=white"/>
 </p>
 
@@ -126,7 +126,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="48" title="Oracle Database"/>&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/swagger/85EA2D" width="48" title="Swagger / OpenAPI"/>
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/splunk.svg" width="48" title="Splunk" style="filter: invert(1);"/>
+  <img src="https://img.shields.io/badge/Splunk-65A637?style=for-the-badge"/>
   <img src="https://cdn.simpleicons.org/gitkraken/179287" width="48" title="GitKraken"/>
 </p>
 
