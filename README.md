@@ -126,7 +126,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="48" title="Oracle Database"/>&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/swagger/85EA2D" width="48" title="Swagger / OpenAPI"/>
-  <img src="https://img.shields.io/badge/Splunk-65A637?style=for-the-badge"/>
+  <!-- <img src="https://img.shields.io/badge/Splunk-65A637?style=for-the-badge"/> -->
   <img src="https://cdn.simpleicons.org/gitkraken/179287" width="48" title="GitKraken"/>
 </p>
 
