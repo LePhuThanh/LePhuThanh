@@ -1,7 +1,7 @@
 
-<p align="center">
+<!-- <p align="center">
   <img src="assets/banner.svg" width="100%">
-</p>
+</p> -->
 
 <!--Header-->
 <h1 align="center"> Hi, I'm Phelim!
