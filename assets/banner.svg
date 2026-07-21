@@ -1,7 +1,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
-  <rect width="1200" height="320" fill="#0D1117"/>
-    <text x="600" y="120" fill="white" font-size="54" text-anchor="middle" font-family="Segoe UI">
+  <rect width="1200" height="320" fill="url(#bgGradient)"/>
+    <text x="600" y="120" fill="url(#gradient)" font-size="54" text-anchor="middle" font-family="Segoe UI">
       PHELIM
       <animate
         attributeName="opacity"
@@ -31,5 +31,40 @@
         dur="1s"
         repeatCount="indefinite"/>
   </rect>
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="gradient">
+        <stop
+            offset="0%"
+            stop-color="#58A6FF"/>
+        <stop
+            offset="50%"
+            stop-color="#6DB33F"/>
+        <stop
+            offset="100%"
+            stop-color="#ED8B00"/>
+        <animate
+          attributeName="x1"
+          values="-100%;100%;-100%"
+          dur="6s"
+          repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="bgGradient">
+      <stop
+        offset="0%"
+        stop-color="#0D1117"/>
+      <stop
+        offset="100%"
+        stop-color="#161B22"/>
+      <animate
+        attributeName="x2"
+        values="0%;100%;0%"
+        dur="15s"
+        repeatCount="indefinite"/>
+    </linearGradient>
+</defs>
+
   
 </svg>
