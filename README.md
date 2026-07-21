@@ -56,8 +56,8 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 <!--GitHub Summary-->
 ## 📈 GitHub Summary
 <p align="center">
-  <img width="32%"
-  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LePhuThanh&theme=tokyonight"/>
+  <!-- <img width="32%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LePhuThanh&theme=tokyonight"/> -->
   <img width="32%"
   src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=LePhuThanh&theme=tokyonight"/>
   <img width="32%"
