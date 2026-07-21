@@ -3,19 +3,33 @@
   <rect width="1200" height="320" fill="#0D1117"/>
     <text x="600" y="120" fill="white" font-size="54" text-anchor="middle" font-family="Segoe UI">
       PHELIM
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="2s"
+        fill="freeze"/>
     </text>
     
     <text x="600" y="170" fill="#58A6FF" font-size="24" text-anchor="middle">
       Java Backend Developer
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        begin="2s"
+        dur="2s"
+        fill="freeze"/>
     </text>
   
   <!-- Cursor -->
   <rect x="720" y="85" width="5" height="55" fill="#58A6FF">
       <animate
-          attributeName="opacity"
-          values="1;0;1"
-          dur="1s"
-          repeatCount="indefinite"/>
+        attributeName="opacity"
+        values="1;0;1"
+        begin="4s"
+        dur="1s"
+        repeatCount="indefinite"/>
   </rect>
   
 </svg>
