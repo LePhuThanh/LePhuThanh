@@ -1,7 +1,9 @@
 <!--Header-->
-<h1 align="center">Hi 👋, I'm Phelim <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=160&height=35&lines=☕"/></h1>
+<h1 align="center"> Hi 👋 I'm Phelim
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
+</h1>
 <h3 align="center">
-Backend Java Developer | Spring Boot | Microservices | Reactive Programming
+Backend Java Developer • Spring Boot • Microservices • Reactive Programming
 </h3>
 <p align="center">
 Building scalable backend systems with Java & Spring Ecosystem 🚀
@@ -96,26 +98,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 
 <!--Tech Stack-->
 ## 🛠 Tech Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,docker,kafka,mongodb,mysql,postgres,redis,react,git,maven,gradle,idea,postman"/>
-</p>
-
-### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-### Backend
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot)
-
-![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge)
-
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge)
-
-![Vert.x](https://img.shields.io/badge/Vert.x-782A90?style=for-the-badge)
-
-## 🛠 Tech Stack
-
 ### Core Technologies
-
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
@@ -125,7 +108,6 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 </p>
 
 ### Tools & Platforms
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=docker,kafka,redis,mysql,mongodb,oracle,git,github,maven,gradle,idea,postman,react"/>
 </p>
