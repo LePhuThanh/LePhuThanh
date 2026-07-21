@@ -1,5 +1,5 @@
 <!--Header-->
-<h1 align="center">Hi 👋, I'm Phu Thanh Le</h1>
+<h1 align="center">Hi👋, I'm Phelim</h1>
 <h3 align="center">
 Backend Java Developer • Spring Boot • Microservices • Reactive Programming
 </h3>
@@ -19,7 +19,6 @@ Building scalable backend systems with Java & Spring Ecosystem 🚀
 
 <!--About Me-->
 ## 👨‍💻 About Me
-
 - 🎓 B.Sc. in Computer Science - University of Science, VNU-HCM
 - 💼 Java Backend Developer
 - 🌱 Currently learning **Reactive Programming, Spring Cloud, Distributed Systems**
@@ -43,7 +42,7 @@ Building scalable backend systems with Java & Spring Ecosystem 🚀
 ## 📊 GitHub Statistics
 <p align="center">
   <img height="180em"
-  src="https://github-readme-stats.vercel.app/api?username=LePhuThanh&show_icons=true&theme=tokyonight&hide=contribs&show=reviews,prs_merged,prs_merged_percentage"/>
+  src="https://github-readme-stats.vercel.app/api?username=LePhuThanh&show_icons=true&theme=tokyonight&hide=contribs&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"/>
   <img height="180em"
   src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&layout=compact&theme=tokyonight"/>
 </p>
@@ -62,45 +61,49 @@ Building scalable backend systems with Java & Spring Ecosystem 🚀
 
 <!--Featured Projects-->
 ## 🚀 Featured Projects
+<p align="center">
+
 <a href="https://github.com/LePhuThanh/microservice-eventSourcing/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LePhuThanh&repo=microservice-eventSourcing&theme=highcontrast" />
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=microservice-eventSourcing&theme=highcontrast" />
 </a>
 
 <a href="https://github.com/LePhuThanh/love-certificate/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LePhuThanh&repo=love-certificate&theme=merko" />
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=love-certificate&theme=merko" />
 </a>
 
 <a href="https://github.com/LePhuThanh/ReviewFood/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LePhuThanh&repo=ReviewFood&theme=radical" />
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=ReviewFood&theme=radical" />
 </a>
 
 <a href="https://github.com/LePhuThanh/api-gateway-vertx-project/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LePhuThanh&repo=api-gateway-vertx-project&theme=cobalt" />
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=api-gateway-vertx-project&theme=cobalt" />
 </a> 
 
 <a href="https://github.com/LePhuThanh/Airline-Reservation-Project/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=highcontrast" />
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=highcontrast" />
 </a>
 
 <a href="https://github.com/LePhuThanh/java-database-capstone/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LePhuThanh&repo=java-database-capstone&theme=radical" />
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=java-database-capstone&theme=radical" />
 </a>
 
 <a href="https://github.com/LePhuThanh/SpringMVC_CRUD_JSP/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LePhuThanh&repo=SpringMVC_CRUD_JSP&theme=gruvbox" />
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=SpringMVC_CRUD_JSP&theme=gruvbox" />
 </a>
 
 <a href="https://github.com/LePhuThanh/Spring-boot-tutorial/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LePhuThanh&repo=Spring-boot-tutorial&theme=cobalt" />
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Spring-boot-tutorial&theme=cobalt" />
 </a>
 
 <a href="https://github.com/LePhuThanh/chatterbot/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LePhuThanh&repo=chatterbot&theme=synthwave" />
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=chatterbot&theme=synthwave" />
 </a>
 
 <a href="https://github.com/LePhuThanh/Database-Security/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LePhuThanh&repo=Database-Security&theme=onedark" />
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Database-Security&theme=onedark" />
 </a> 
+
+</p>
 
 <!--Tech Stack-->
 ## 🛠 Tech Stack
