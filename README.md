@@ -26,6 +26,7 @@ Building scalable backend systems with Java & Spring Ecosystem 🚀
 - 🌱 Currently learning **Reactive Programming, Spring Cloud, Distributed Systems**
 - 💡 Interested in **Backend Architecture, Microservices, Event-Driven Systems**
 - ❤️ Love building scalable and maintainable software
+---
 - ☕ **Languages & Frameworks:** Java, Spring Boot, Spring Cloud, Spring Data JPA, Hibernate, MyBatis, Vert.x
 - ☁️ **Architecture:** Microservices, Event Sourcing, CQRS, Reactive Programming, RESTful APIs, OAuth2/JWT, CI/CD
 - 🗄️ **Databases & Messaging:** Oracle, MySQL, Redis, Kafka
@@ -119,12 +120,14 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 
 ### 🛠 Tools & Platforms
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kafka,redis,mysql,mongodb,jenkins,splunk,git,github,gitkraken,maven,gradle,idea,postman,linux,react"/>
+  <img src="https://skillicons.dev/icons?i=docker,kafka,redis,mysql,mongodb,jenkins,git,github,maven,gradle,idea,postman,linux,react"/>
 </p>
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="48" title="Oracle Database"/>&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/swagger/85EA2D"width="48"title="Swagger / OpenAPI"/>
+  <img src="https://cdn.simpleicons.org/swagger/85EA2D" width="48" title="Swagger / OpenAPI"/>
+  <img src="https://cdn.simpleicons.org/splunk/000000" width="48" title="Splunk"/>&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/gitkraken/179287" width="48" title="GitKraken"/>
 </p>
 
 ### ☁️ Architecture & Practices
@@ -136,24 +139,6 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
   <img src="https://img.shields.io/badge/Reactive_Programming-FF6F00?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/OAuth2/JWT-3F51B5?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/CI/CD-43A047?style=for-the-badge"/>
-</p>
-
-<!--Tech Stack-->
-## 🛠 Tech Stack
-### Core Technologies
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vert.x-782A90?style=for-the-badge&logo=eclipse-vert.x&logoColor=white"/>
-</p>
-
-### Tools & Platforms
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kafka,redis,mysql,jenkins,splunk,git,github,maven,gradle,idea,postman,react,gitkraken,linux"/>
 </p>
 
 <!--Contribution Snake-->
