@@ -35,6 +35,9 @@ Building scalable backend systems with Java & Spring Ecosystem 🚀
   <a href="https://github.com/LePhuThanh">
     <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/>
   </a>
+  <a href="https://leetcode.com/u/PhuThanh/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
+  </a>
   <a href="https://www.youtube.com/@hoamipubgm73">
     <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube"/>
   </a>
