@@ -85,11 +85,11 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 </a> 
 
 <a href="https://github.com/LePhuThanh/Airline-Reservation-Project/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=gruvbox&cache_seconds=1" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=gruvbox&v=2" />
 </a>
 
 <a href="https://github.com/LePhuThanh/java-database-capstone/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=java-database-capstone&theme=tokyonight&cache_seconds=1" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=java-database-capstone&theme=tokyonight&v=2" />
 </a>
 
 </p>
