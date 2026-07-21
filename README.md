@@ -1,5 +1,4 @@
-### WELCOME TO MY PAGE 👋👋👋
-# 👋 Hi, I'm Phu Thanh Le Welcome to my GitHub profile! 
+## 👋👋👋 WELCOME TO GITHUB PROFILE! 
 
 I'm **Phu Thanh Le** (you can call me **Phelim**), a **Computer Science graduate** from the **University of Science, Vietnam National University Ho Chi Minh City (VNUHCM - HCMUS)**. 
 I'm passionate about designing scalable backend systems and building modern web applications. My primary interests include: 
@@ -11,8 +10,9 @@ I'm passionate about designing scalable backend systems and building modern web 
 - 🐳 Docker & Containerization
 - ⚛️ ReactJS
 - 🤖 Natural Language Processing (NLP) & Deep Learning I enjoy learning new technologies, solving challenging engineering problems, and building clean, maintainable software.
+--- 
 
---- ## 🛠 Tech Stack 
+## 🛠 Tech Stack 
 ### Backend 
 - Java
 - Spring Boot
@@ -22,13 +22,6 @@ I'm passionate about designing scalable backend systems and building modern web 
 - Spring Cloud
 - Vert.x
 - Hibernate
-  
-### Frontend 
-- ReactJS
-- TypeScript
-- HTML5
-- CSS3
-- JavaScript
 
 ### Database 
 - MySQL
@@ -43,23 +36,17 @@ I'm passionate about designing scalable backend systems and building modern web 
 - Gradle
 - IntelliJ IDEA
 - Postman
-
 ---
 
 ## 📫 Connect with Me: 
-
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png)LinkedIn](https://www.linkedin.com/in/phuthanhle/) 
 [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/LePhuThanh) 
 [![Youtube]() Youtube](https://www.youtube.com/@hoamipubgm73)
 
-
+## 📊 GitHub Statistics
 ![Thanh's github stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LePhuThanh&show_icons=true&theme=tokyonight&hide=contribs,prs,issues)
 
-## 📊 GitHub Statistics
-<p align="center"> <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LePhuThanh&show_icons=true&theme=tokyonight&hide=contribs,prs,issues" /> </p>
-
 # 🚀 Featured Projects
-
 <a href="https://github.com/LePhuThanh/microservice-eventSourcing/">
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=microservice-eventSourcing&theme=highcontrast" />
 </a>
