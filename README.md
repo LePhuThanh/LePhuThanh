@@ -73,7 +73,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 </a>
 
 <a href="https://github.com/LePhuThanh/love-certificate/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=love-certificate&theme=merko&cache_seconds=1" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=love-certificate&theme=onedark&cache_seconds=1" />
 </a>
 
 <a href="https://github.com/LePhuThanh/ReviewFood/">
@@ -85,28 +85,12 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=LePhuThanh&l
 </a> 
 
 <a href="https://github.com/LePhuThanh/Airline-Reservation-Project/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=highcontrast&cache_seconds=1" />
+  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Airline-Reservation-Project&theme=gruvbox&cache_seconds=1" />
 </a>
 
 <a href="https://github.com/LePhuThanh/java-database-capstone/">
   <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=java-database-capstone&theme=tokyonight&cache_seconds=1" />
 </a>
-
-<a href="https://github.com/LePhuThanh/SpringMVC_CRUD_JSP/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=SpringMVC_CRUD_JSP&theme=gruvbox&cache_seconds=1" />
-</a>
-
-<a href="https://github.com/LePhuThanh/Spring-boot-tutorial/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Spring-boot-tutorial&theme=cobalt&cache_seconds=1" />
-</a>
-
-<a href="https://github.com/LePhuThanh/chatterbot/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=chatterbot&theme=synthwave&cache_seconds=1" />
-</a>
-
-<a href="https://github.com/LePhuThanh/Database-Security/">
-  <img width="46%" height="150" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Database-Security&theme=onedark&cache_seconds=1" />
-</a> 
 
 </p>
 
