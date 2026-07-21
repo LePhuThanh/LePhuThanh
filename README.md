@@ -1,4 +1,4 @@
-# 👋 Welcome to my Github profile! 
+# 👋 Welcome to my GitHub profile! 
 
 I'm **Phu Thanh Le** (you can call me **Phelim**), a **Computer Science graduate** from the **University of Science, Vietnam National University Ho Chi Minh City (VNUHCM - HCMUS)**. 
 I'm passionate about designing scalable backend systems and building modern web applications. My primary interests include: 
@@ -12,28 +12,23 @@ I'm passionate about designing scalable backend systems and building modern web 
 - 🤖 Natural Language Processing (NLP) & Deep Learning I enjoy learning new technologies, solving challenging engineering problems, and building clean, maintainable software.
 
 ## 📫 Connect with Me: 
-
 <p align="left"> 
-<a href="https://www.linkedin.com/in/phuthanhle/" target="_blank"> 
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> 
-</a> 
+  <a href="https://www.linkedin.com/in/phuthanhle/" target="_blank"> 
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> 
+  </a> 
   
-<a href="https://github.com/LePhuThanh" target="_blank"> 
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> 
-</a> 
+  <a href="https://github.com/LePhuThanh" target="_blank"> 
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> 
+  </a> 
 
-<a href="https://www.youtube.com/@hoamipubgm73" target="_blank"> 
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/> 
-</a> 
+  <a href="https://www.youtube.com/@hoamipubgm73" target="_blank"> 
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/> 
+  </a> 
 </p>
-
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png)LinkedIn](https://www.linkedin.com/in/phuthanhle/) 
-[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/LePhuThanh) 
-[![Youtube]() Youtube](https://www.youtube.com/@hoamipubgm73)
 
 ## 📊 GitHub Statistics
 ![Thanh's github stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LePhuThanh&show_icons=true&theme=tokyonight&hide=contribs,prs,issues)
-
+![Thanh's GitHub stats](https://github-readme-stats.vercel.app/api?username=LePhuThanh&show_icons=true&theme=tokyonight&hide=contribs,prs,issues)
 ## 🚀 Featured Projects
 <a href="https://github.com/LePhuThanh/microservice-eventSourcing/">
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=microservice-eventSourcing&theme=highcontrast" />
