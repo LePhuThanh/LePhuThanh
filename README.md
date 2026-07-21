@@ -1,5 +1,5 @@
 ### WELCOME TO MY PAGE 👋👋👋
-My name is Phu Thanh. I am a Computer Science bachelor, majoring in Computer Science from the University of Science, Ho Chi Minh City, Vietnam. I am interested in the following topics: Web Development (Java, Spring Boot, Spring Data JPA, Spring Security, Spring Cloud, ReactJS), Deep Learning in NLP.<br>
+My name is Phu Thanh, you can call me Phelim. I am a Computer Science bachelor, majoring in Computer Science from the University of Science, Ho Chi Minh City, Vietnam. I am interested in the following topics: Web Development (Java, Spring Boot, Spring Data JPA, Spring Security, Spring Cloud, ReactJS), Deep Learning in NLP.<br>
 ## 📫 How to reach me: 
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/phuthanhle/) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/LePhuThanh) [![Youtube]() Youtube](https://www.youtube.com/@hoamipubgm73)
@@ -15,8 +15,8 @@ My name is Phu Thanh. I am a Computer Science bachelor, majoring in Computer Sci
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Spring-boot-tutorial&theme=cobalt" />
 </a>  
 
-<a href="https://github.com/LePhuThanh/Project-react-basic/">
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=Project-react-basic&theme=merko" />
+<a href="https://github.com/LePhuThanh/love-certificate/">
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LePhuThanh&repo=love-certificate&theme=merko" />
 </a>
 
 <a href="https://github.com/LePhuThanh/tutorial-typescript/">
