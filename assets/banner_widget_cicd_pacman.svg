@@ -138,6 +138,20 @@
         <!-- ================================================= -->
         <!-- Commit Node                                       -->
         <!-- ================================================= -->
+        <!-- Glow -->
+        <circle
+            cx="34"
+            cy="36"
+            r="3.8"
+            fill="#58A6FF"
+            opacity="0.14">
+            <animate
+                attributeName="opacity"
+                values="0.08;0.18;0.08"
+                dur="2.8s"
+                repeatCount="indefinite"/>
+        </circle>
+        <!-- Main Node -->
         <circle
             cx="34"
             cy="36"
@@ -152,6 +166,21 @@
         <!-- ================================================= -->
         <!-- CI Node                                           -->
         <!-- ================================================= -->
+        <!-- Glow -->
+        <circle
+            cx="90"
+            cy="36"
+            r="3.8"
+            fill="#58A6FF"
+            opacity="0.14">
+            <animate
+                attributeName="opacity"
+                values="0.08;0.18;0.08"
+                begin="0.4s"
+                dur="2.8s"
+                repeatCount="indefinite"/>
+        </circle>
+        <!-- Main Node -->
         <circle
             cx="90"
             cy="36"
@@ -167,6 +196,21 @@
         <!-- ================================================= -->
         <!-- CD Node                                           -->
         <!-- ================================================= -->
+        <!-- Glow -->
+        <circle
+            cx="150"
+            cy="36"
+            r="3.8"
+            fill="#58A6FF"
+            opacity="0.14">
+            <animate
+                attributeName="opacity"
+                values="0.08;0.18;0.08"
+                begin="0.8s"
+                dur="2.8s"
+                repeatCount="indefinite"/>
+        </circle>
+        <!-- Main Node -->
         <circle
             cx="150"
             cy="36"
@@ -182,6 +226,21 @@
         <!-- ================================================= -->
         <!-- Deploy Node                                       -->
         <!-- ================================================= -->
+        <!-- Glow -->
+        <circle
+            cx="206"
+            cy="36"
+            r="3.8"
+            fill="#58A6FF"
+            opacity="0.14">
+            <animate
+                attributeName="opacity"
+                values="0.08;0.18;0.08"
+                begin="1.2s"
+                dur="2.8s"
+                repeatCount="indefinite"/>
+        </circle>
+        <!-- Main Node -->
         <circle
             cx="206"
             cy="36"
