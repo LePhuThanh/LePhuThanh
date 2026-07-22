@@ -216,7 +216,7 @@
         cy="160"
         r="105"
         fill="#58A6FF"
-        opacity="0.05"
+        opacity="0.035"
         filter="url(#softGlow)">
         <animate
             attributeName="opacity"
@@ -233,7 +233,7 @@
         cy="160"
         r="105"
         fill="#58A6FF"
-        opacity="0.05"
+        opacity="0.035"
         filter="url(#softGlow)">
         <animate
             attributeName="opacity"
@@ -522,10 +522,10 @@
         <!-- Main Title -->
         <text
             x="600"
-            y="145"
+            y="160"
             text-anchor="middle"
             font-family="Segoe UI, Inter, Arial"
-            font-size="52"
+            font-size="48"
             font-weight="700"
             letter-spacing="4"
             fill="#E6EDF3">
@@ -534,9 +534,9 @@
         <!-- Accent Line -->
         <line
             x1="505"
-            y1="158"
+            y1="174"
             x2="695"
-            y2="158"
+            y2="174"
             stroke="#58A6FF"
             stroke-width="2"
             stroke-linecap="round">
@@ -549,7 +549,7 @@
         <!-- Subtitle -->
         <text
             x="600"
-            y="186"
+            y="202"
             text-anchor="middle"
             font-family="Segoe UI"
             font-size="20"
@@ -560,12 +560,12 @@
         <!-- Description -->
         <text
             x="600"
-            y="212"
+            y="228"
             text-anchor="middle"
             font-family="Segoe UI"
             font-size="14"
             fill="#8B949E">
-            Building scalable • Microservice
+            Spring Boot • Microservices • Cloud Native
         </text>
     </g>
 
@@ -577,80 +577,80 @@
         font-size="12">
         <!-- Java -->
         <rect
-            x="860"
+            x="930"
             y="118"
-            width="120"
+            width="96"
             height="26"
-            rx="13"
+            rx="11"
             fill="#161B22"
             stroke="#30363D"/>
         <circle
-            cx="875"
+            cx="944"
             cy="131"
             r="4"
             fill="#3FB950"/>
         <text
-            x="888"
+            x="956"
             y="135"
             fill="#E6EDF3">
             JAVA 21
         </text>
         <!-- Spring -->
         <rect
-            x="860"
+            x="930"
             y="152"
-            width="120"
+            width="96"
             height="26"
-            rx="13"
+            rx="11"
             fill="#161B22"
             stroke="#30363D"/>
         <circle
-            cx="875"
+            cx="944"
             cy="165"
             r="4"
             fill="#3FB950"/>
         <text
-            x="888"
+            x="956"
             y="169"
             fill="#E6EDF3">
             SPRING
         </text>
         <!-- Cloud -->
         <rect
-            x="860"
+            x="930"
             y="186"
-            width="120"
+            width="96"
             height="26"
-            rx="13"
+            rx="11"
             fill="#161B22"
             stroke="#30363D"/>
         <circle
-            cx="875"
+            cx="944"
             cy="199"
             r="4"
             fill="#3FB950"/>
         <text
-            x="888"
+            x="956"
             y="203"
             fill="#E6EDF3">
             CLOUD
         </text>
         <!-- Kafka -->
         <rect
-            x="860"
+            x="930"
             y="220"
-            width="120"
+            width="96"
             height="26"
-            rx="13"
+            rx="11"
             fill="#161B22"
             stroke="#30363D"/>
         <circle
-            cx="875"
+            cx="944"
             cy="233"
             r="4"
             fill="#3FB950"/>
         <text
-            x="888"
+            x="956"
             y="237"
             fill="#E6EDF3">
             KAFKA
