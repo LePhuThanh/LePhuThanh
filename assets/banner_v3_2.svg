@@ -428,12 +428,44 @@
             r="7"
             fill="#58A6FF"/>
     </g>
-
+    
+    <!-- ===================================================== -->
+    <!-- ANIMATION PATHS (Invisible)                           -->
+    <!-- ===================================================== -->
+    <!-- Full flow : API -> DATABASE -->
+    <path
+        id="flowFullTop"
+        d="M170 95
+           L310 95
+           L420 140
+           L580 80
+           L760 90
+           L920 90"
+        fill="none"
+        stroke="none"/> <!--This path is not visible; it's only for packet execution.-->
+    <!-- Full flow : BUS -> REDIS -> K8S -->
+    <path
+        id="flowFullBottom"
+        d="M580 80
+           L760 190
+           L920 190"
+        fill="none"
+        stroke="none"/>
+    
     <!-- ===================================================== -->
     <!-- MOVING DATA PACKETS                                  -->
     <!-- ===================================================== -->
-    <g>
-        <circle
+        <!-- Noted: API -> SPRING -> SERVICE
+                packet
+                SERVICE -> BUS
+                packet
+                BUS -> KAFKA
+                packet
+                KAFKA -> DATABASE
+                packet -->
+    <!-- <g> -->
+        <!-- Packet to  -->
+        <!-- <circle
             r="3"
             fill="#58A6FF">
             <animateMotion
@@ -441,8 +473,9 @@
                 repeatCount="indefinite">
                 <mpath href="#flow1"/>
             </animateMotion>
-        </circle>
-        <circle
+        </circle> -->
+        <!-- Packet to  -->
+        <!-- <circle
             r="3"
             fill="#58A6FF">
             <animateMotion
@@ -451,8 +484,9 @@
                 repeatCount="indefinite">
                 <mpath href="#flow2"/>
             </animateMotion>
-        </circle>
-        <circle
+        </circle> -->
+        <!-- Packet to  -->
+        <!-- <circle
             r="3"
             fill="#58A6FF">
             <animateMotion
@@ -461,8 +495,9 @@
                 repeatCount="indefinite">
                 <mpath href="#flow3"/>
             </animateMotion>
-        </circle>
-        <circle
+        </circle> -->
+        <!-- Packet to  -->
+        <!-- <circle
             r="3"
             fill="#58A6FF">
             <animateMotion
@@ -471,9 +506,69 @@
                 repeatCount="indefinite">
                 <mpath href="#flow4"/>
             </animateMotion>
+        </circle> -->
+        <!-- Packet to DATABASE -->
+        <!-- <circle
+            r="3"
+            fill="#58A6FF">
+            <animateMotion
+                dur="4s"
+                begin="3.5s"
+                repeatCount="indefinite">
+                <mpath href="#flow5"/>
+            </animateMotion>
+        </circle> -->
+        <!-- Packet to K8S -->
+        <!-- <circle
+            r="3"
+            fill="#58A6FF">
+            <animateMotion
+                dur="4s"
+                begin="4s"
+                repeatCount="indefinite">
+                <mpath href="#flow6"/>
+            </animateMotion>
+        </circle> -->
+    <!-- </g> -->
+    
+    <!-- API -> SPRING -> SERVICE -> BUS -> KAFKA -> DATABASE -->
+    <g>
+        <!-- Packet 1 -->
+        <circle
+            r="3"
+            fill="#58A6FF">
+            <animateMotion
+                dur="8s"
+                repeatCount="indefinite">
+                <mpath href="#flowFullTop"/>
+            </animateMotion>
+        </circle>
+            
+        <!-- Packet 2 -->
+        <circle
+            r="3"
+            fill="#58A6FF">
+            <animateMotion
+                dur="8s"
+                begin="2.2s"
+                repeatCount="indefinite">
+                <mpath href="#flowFullTop"/>
+            </animateMotion>
+        </circle>
+            
+        <!-- Packet 3 -->
+        <circle
+            r="3"
+            fill="#58A6FF">
+            <animateMotion
+                dur="5s"
+                begin="1.3s"
+                repeatCount="indefinite">
+                <mpath href="#flowFullBottom"/>
+            </animateMotion>
         </circle>
     </g>
-
+        
     <!-- ===================================================== -->
     <!-- LABELS                                                -->
     <!-- ===================================================== -->
