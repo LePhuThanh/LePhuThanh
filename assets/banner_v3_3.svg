@@ -557,6 +557,11 @@
             r="2.4"
             fill="#58A6FF"
             filter="url(#packetGlow)">
+            <animate
+                attributeName="r"
+                values="2.2;2.8;2.2"
+                dur="1.8s"
+                repeatCount="indefinite"/>
             <animateMotion
                 dur="7.5s"
                 begin="0s"
@@ -570,6 +575,11 @@
             r="2.4"
             fill="#58A6FF"
             filter="url(#packetGlow)">
+            <animate
+                attributeName="r"
+                values="2.2;2.8;2.2"
+                dur="1.8s"
+                repeatCount="indefinite"/>
             <animateMotion
                 dur="9.0s"
                 begin="2.1s"
@@ -583,6 +593,11 @@
             r="2.4"
             fill="#58A6FF"
             filter="url(#packetGlow)">
+            <animate
+                attributeName="r"
+                values="2.2;2.8;2.2"
+                dur="1.8s"
+                repeatCount="indefinite"/>
             <animateMotion
                 dur="6.2s"
                 begin="1.4s"
@@ -700,8 +715,8 @@
             width="95"
             height="26"
             rx="11"
-            fill="#161B22"
-            stroke="#30363D"/>
+            fill="#1B222C"
+            stroke="#3B4450"/>
         <circle
             cx="974"
             cy="131"
@@ -720,8 +735,8 @@
             width="96"
             height="26"
             rx="11"
-            fill="#161B22"
-            stroke="#30363D"/>
+            fill="#1B222C"
+            stroke="#3B4450"/>
         <circle
             cx="974"
             cy="165"
@@ -740,8 +755,8 @@
             width="96"
             height="26"
             rx="11"
-            fill="#161B22"
-            stroke="#30363D"/>
+            fill="#1B222C"
+            stroke="#3B4450"/>
         <circle
             cx="974"
             cy="199"
@@ -760,8 +775,8 @@
             width="96"
             height="26"
             rx="11"
-            fill="#161B22"
-            stroke="#30363D"/>
+            fill="#1B222C"
+            stroke="#3B4450"/>
         <circle
             cx="974"
             cy="233"
