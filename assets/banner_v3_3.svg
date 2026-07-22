@@ -114,7 +114,25 @@
                 <feMergeNode in="SourceGraphic"/>
             </feMerge>
         </filter>
-
+        <!-- ================================================ -->
+        <!-- Packet Glow                                      -->
+        <!-- ================================================ -->
+        <!-- Using for Packet-->
+        <filter
+            id="packetGlow"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%">
+            <feGaussianBlur
+                stdDeviation="2"
+                result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
         <!-- ================================================ -->
         <!-- Grid Pattern                                      -->
         <!-- ================================================ -->
@@ -290,42 +308,42 @@
             d="M170 95 L310 95 L420 140"
             fill="none"
             stroke="#2F81F7"
-            stroke-opacity="0.18"
+            stroke-opacity="0.14"
             stroke-width="2"/>
         <path
             id="flow2"
             d="M420 140 L580 80"
             fill="none"
             stroke="#2F81F7"
-            stroke-opacity="0.18"
+            stroke-opacity="0.14"
             stroke-width="2"/>
         <path
             id="flow3"
             d="M580 80 L760 90"
             fill="none"
             stroke="#2F81F7"
-            stroke-opacity="0.18"
+            stroke-opacity="0.14"
             stroke-width="2"/>
         <path
             id="flow4"
             d="M580 80 L760 190"
             fill="none"
             stroke="#2F81F7"
-            stroke-opacity="0.18"
+            stroke-opacity="0.14"
             stroke-width="2"/>
         <path
             id="flow5"
             d="M760 90 L920 90"
             fill="none"
             stroke="#2F81F7"
-            stroke-opacity="0.18"
+            stroke-opacity="0.14"
             stroke-width="2"/>
         <path
             id="flow6"
             d="M760 190 L920 190"
             fill="none"
             stroke="#2F81F7"
-            stroke-opacity="0.18"
+            stroke-opacity="0.14"
             stroke-width="2"/>
       
         <!-- ===================== -->
@@ -402,7 +420,7 @@
             cx="760"
             cy="90"
             r="7"
-            fill="#58A6FF"/>
+            fill="#ED8B00"/>
         <!-- ===================== -->
         <!-- REDIS                 -->
         <!-- ===================== -->
@@ -410,7 +428,7 @@
             cx="760"
             cy="190"
             r="7"
-            fill="#58A6FF"/>
+            fill="#DC2626"/>
         <!-- ===================== -->
         <!-- DATABASE              -->
         <!-- ===================== -->
@@ -418,7 +436,7 @@
             cx="920"
             cy="90"
             r="7"
-            fill="#58A6FF"/>
+            fill="#3FB950"/>
         <!-- ===================== -->
         <!-- KUBERNETES            -->
         <!-- ===================== -->
@@ -426,7 +444,7 @@
             cx="920"
             cy="190"
             r="7"
-            fill="#58A6FF"/>
+            fill="#7C3AED"/>
     </g>
     
     <!-- ===================================================== -->
@@ -535,8 +553,9 @@
     <g>
         <!-- Packet 1 -->
         <circle
-            r="3"
-            fill="#58A6FF">
+            r="2.4"
+            fill="#58A6FF"
+            filter="url(#packetGlow)">
             <animateMotion
                 dur="7.5s"
                 begin="0s"
@@ -547,8 +566,9 @@
             
         <!-- Packet 2 -->
         <circle
-            r="3"
-            fill="#58A6FF">
+            r="2.4"
+            fill="#58A6FF"
+            filter="url(#packetGlow)">
             <animateMotion
                 dur="9.0s"
                 begin="2.1s"
@@ -559,8 +579,9 @@
             
         <!-- Packet 3 -->
         <circle
-            r="3"
-            fill="#58A6FF">
+            r="2.4"
+            fill="#58A6FF"
+            filter="url(#packetGlow)">
             <animateMotion
                 dur="6.2s"
                 begin="1.4s"
