@@ -259,20 +259,172 @@
         id="pacman-dots"
         fill="#8B949E"
         fill-opacity="0.35">
-        <circle cx="42"  cy="58" r="1.6"/>
-        <circle cx="54"  cy="58" r="1.6"/>
-        <circle cx="66"  cy="58" r="1.6"/>
-        <circle cx="78"  cy="58" r="1.6"/>
-        <circle cx="90"  cy="58" r="1.6"/>
-        <circle cx="102" cy="58" r="1.6"/>
-        <circle cx="114" cy="58" r="1.6"/>
-        <circle cx="126" cy="58" r="1.6"/>
-        <circle cx="138" cy="58" r="1.6"/>
-        <circle cx="150" cy="58" r="1.6"/>
-        <circle cx="162" cy="58" r="1.6"/>
-        <circle cx="174" cy="58" r="1.6"/>
-        <circle cx="186" cy="58" r="1.6"/>
-        <circle cx="198" cy="58" r="1.6"/>
+        <!-- DOT 1 -->
+        <circle cx="42" cy="58" r="1.6" fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.03;0.05;0.07;1"/>
+        </circle>
+        <!-- DOT 2 -->
+        <circle cx="54" cy="58" r="1.6" fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.09;0.11;0.13;1"/>
+        </circle>
+        <!-- DOT 3 -->
+        <circle cx="66" cy="58" r="1.6" fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.15;0.17;0.19;1"/>
+        </circle>
+        <!-- DOT 4 -->
+        <circle cx="78" cy="58" r="1.6" fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.21;0.23;0.25;1"/>
+        </circle>
+        <!-- DOT 5 -->
+        <circle
+            cx="90"
+            cy="58"
+            r="1.6"
+            fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.27;0.29;0.31;1"/>
+        </circle>
+        <!-- DOT 6 -->
+        <circle
+            cx="102"
+            cy="58"
+            r="1.6"
+            fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.33;0.35;0.37;1"/>
+        </circle>
+        <!-- DOT 7 -->
+        <circle
+            cx="114"
+            cy="58"
+            r="1.6"
+            fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.39;0.41;0.43;1"/>
+        </circle>
+        <!-- DOT 8 -->
+        <circle
+            cx="126"
+            cy="58"
+            r="1.6"
+            fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.45;0.47;0.49;1"/>
+        </circle>
+        <!-- DOT 9 -->
+        <circle
+            cx="138"
+            cy="58"
+            r="1.6"
+            fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.51;0.53;0.55;1"/>
+        </circle>
+        <!-- DOT 10 -->
+        <circle
+            cx="150"
+            cy="58"
+            r="1.6"
+            fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.57;0.59;0.61;1"/>
+        </circle>
+        <!-- DOT 11 -->
+        <circle
+            cx="162"
+            cy="58"
+            r="1.6"
+            fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.63;0.65;0.67;1"/>
+        </circle>
+        <!-- DOT 12 -->
+        <circle
+            cx="174"
+            cy="58"
+            r="1.6"
+            fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.69;0.71;0.73;1"/>
+        </circle>
+        <!-- DOT 13 -->
+        <circle
+            cx="186"
+            cy="58"
+            r="1.6"
+            fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.75;0.77;0.79;1"/>
+        </circle>
+        <!-- DOT 14 -->
+        <circle
+            cx="198"
+            cy="58"
+            r="1.6"
+            fill="#8B949E">
+            <animate
+                attributeName="opacity"
+                dur="6s"
+                repeatCount="indefinite"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.81;0.83;0.85;1"/>
+        </circle>
     </g>
     <!-- ===================================================== -->
     <!-- SUCCESS                                               -->
