@@ -27,9 +27,9 @@ Building scalable backend systems with Java & Spring Ecosystem 🚀
 <!--About Me-->
 ## 👨‍💻 About Me
 - 🎓 B.Sc. in Computer Science — University of Science, VNU-HCM
-- 💼 Java Backend Engineer
+- 💼 Backend engineer specializing in enterprise Java applications
 - 🌱 Currently learning **Reactive Programming, Spring Cloud, Distributed Systems**
-- 💡 Interested in **Backend Architecture, Microservices, Event-Driven Systems**
+- 💡 Interested in **Backend Architecture, Microservices, Event-Driven Systems, High Performance Java, Clean Architecture**
 - ❤️ Love building scalable and maintainable software
 ---
 - ☕ **Languages & Frameworks:** Java, Spring Boot, Spring Cloud, Spring Data JPA, Hibernate, MyBatis, Vert.x
