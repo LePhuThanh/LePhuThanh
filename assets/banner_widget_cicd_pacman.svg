@@ -17,10 +17,10 @@
             y2="100%">
             <stop
                 offset="0%"
-                stop-color="#161B22"/>
+                stop-color="#1B2330"/>
             <stop
                 offset="100%"
-                stop-color="#0D1117"/>
+                stop-color="#111827"/>
         </linearGradient>
         <!-- Border -->
         <linearGradient
@@ -31,13 +31,16 @@
             y2="0%">
             <stop
                 offset="0%"
-                stop-color="#30363D"/>
+                stop-color="#2F81F7"
+                stop-opacity="0.15"/>
             <stop
                 offset="50%"
-                stop-color="#3B4450"/>
+                stop-color="#3B4450"
+                stop-opacity="0.15"/>
             <stop
                 offset="100%"
-                stop-color="#30363D"/>
+                stop-color="#2F81F7"
+                stop-opacity="0.15"/>
         </linearGradient>
         <!-- Glass -->
         <linearGradient
@@ -49,11 +52,11 @@
             <stop
                 offset="0%"
                 stop-color="#FFFFFF"
-                stop-opacity="0.05"/>
+                stop-opacity="0.09"/>
             <stop
                 offset="100%"
                 stop-color="#FFFFFF"
-                stop-opacity="0.01"/>
+                stop-opacity="0.00"/>
         </linearGradient>
     </defs>
     <!-- ===================================================== -->
@@ -101,8 +104,8 @@
             y="19"
             font-family="Consolas, 'Courier New', monospace"
             font-size="9"
-            font-weight="600"
-            letter-spacing="1"
+            font-weight="700"
+            letter-spacing="1.5"
             fill="#8B949E">
             BUILD PIPELINE
         </text>
@@ -131,7 +134,7 @@
             y2="36"
             stroke="#3B82F6"
             stroke-width="1.0"
-            stroke-opacity="0.35"/>
+            stroke-opacity="0.55"/>
         <!-- ================================================= -->
         <!-- Commit Node                                       -->
         <!-- ================================================= -->
@@ -233,7 +236,7 @@
             font-family="'Segoe UI Symbol','Segoe UI','Arial Unicode MS',sans-serif"
             font-size="11"
             font-weight="600"
-            fill="#58A6FF"
+            fill="#FFC83D"
             dominant-baseline="middle">
             ᗧ
         </text>
@@ -282,7 +285,7 @@
         fill="#8B949E"
         fill-opacity="0.35">
         <!-- DOT 1 -->
-        <circle cx="42" cy="58" r="1.6" fill="#8B949E">
+        <circle cx="42" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -291,7 +294,7 @@
                 keyTimes="0;0.03;0.05;0.07;1"/>
         </circle>
         <!-- DOT 2 -->
-        <circle cx="54" cy="58" r="1.6" fill="#8B949E">
+        <circle cx="54" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -300,7 +303,7 @@
                 keyTimes="0;0.09;0.11;0.13;1"/>
         </circle>
         <!-- DOT 3 -->
-        <circle cx="66" cy="58" r="1.6" fill="#8B949E">
+        <circle cx="66" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -309,7 +312,7 @@
                 keyTimes="0;0.15;0.17;0.19;1"/>
         </circle>
         <!-- DOT 4 -->
-        <circle cx="78" cy="58" r="1.6" fill="#8B949E">
+        <circle cx="78" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -322,7 +325,7 @@
             cx="90"
             cy="58"
             r="1.6"
-            fill="#8B949E">
+            fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -335,7 +338,7 @@
             cx="102"
             cy="58"
             r="1.6"
-            fill="#8B949E">
+            fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -348,7 +351,7 @@
             cx="114"
             cy="58"
             r="1.6"
-            fill="#8B949E">
+            fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -361,7 +364,7 @@
             cx="126"
             cy="58"
             r="1.6"
-            fill="#8B949E">
+            fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -374,7 +377,7 @@
             cx="138"
             cy="58"
             r="1.6"
-            fill="#8B949E">
+            fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -387,7 +390,7 @@
             cx="150"
             cy="58"
             r="1.6"
-            fill="#8B949E">
+            fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -400,7 +403,7 @@
             cx="162"
             cy="58"
             r="1.6"
-            fill="#8B949E">
+            fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -413,7 +416,7 @@
             cx="174"
             cy="58"
             r="1.6"
-            fill="#8B949E">
+            fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -426,7 +429,7 @@
             cx="186"
             cy="58"
             r="1.6"
-            fill="#8B949E">
+            fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
@@ -439,7 +442,7 @@
             cx="198"
             cy="58"
             r="1.6"
-            fill="#8B949E">
+            fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="opacity"
                 dur="6s"
