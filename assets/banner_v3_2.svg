@@ -538,7 +538,8 @@
             r="3"
             fill="#58A6FF">
             <animateMotion
-                dur="8s"
+                dur="7.5s"
+                begin="0s"
                 repeatCount="indefinite">
                 <mpath href="#flowFullTop"/>
             </animateMotion>
@@ -549,8 +550,8 @@
             r="3"
             fill="#58A6FF">
             <animateMotion
-                dur="8s"
-                begin="2.2s"
+                dur="9.0s"
+                begin="2.1s"
                 repeatCount="indefinite">
                 <mpath href="#flowFullTop"/>
             </animateMotion>
@@ -561,8 +562,8 @@
             r="3"
             fill="#58A6FF">
             <animateMotion
-                dur="5s"
-                begin="1.3s"
+                dur="6.2s"
+                begin="1.4s"
                 repeatCount="indefinite">
                 <mpath href="#flowFullBottom"/>
             </animateMotion>
