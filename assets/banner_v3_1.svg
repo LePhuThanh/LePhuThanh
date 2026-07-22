@@ -366,7 +366,7 @@
         <!-- ===================== -->
         <circle
             cx="420"
-            cy="140"
+            cy="132"
             r="8"
             fill="#58A6FF"
             filter="url(#blueGlow)">
