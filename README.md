@@ -16,7 +16,7 @@ Building scalable backend systems with Java & Spring Ecosystem 🚀
 
 <!--Typing Animation-->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3500&pause=1000&center=true&vCenter=true&width=850&lines=Java+Backend+Developer;Spring+Boot+•+Spring+Cloud;Microservices+•+Event+Sourcing+•+CQRS;Reactive+Programming+•+Vert.x;Building+Scalable+Enterprise+Systems" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3500&pause=1000&center=true&vCenter=true&width=850&lines=Java+Backend+Engineer;Spring+Boot+•+Spring+Cloud;Microservices+•+Event+Sourcing+•+CQRS;Reactive+Programming+•+Vert.x;Building+Scalable+Enterprise+Systems" />
 </p>
 
 <!--Visitor Badge-->
