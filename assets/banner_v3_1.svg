@@ -590,14 +590,14 @@
             r="4"
             fill="#3FB950"/>
         <text
-            x="956"
+            x="986"
             y="135"
             fill="#E6EDF3">
             JAVA 21
         </text>
         <!-- Spring -->
         <rect
-            x="930"
+            x="960"
             y="152"
             width="96"
             height="26"
@@ -610,14 +610,14 @@
             r="4"
             fill="#3FB950"/>
         <text
-            x="956"
+            x="986"
             y="169"
             fill="#E6EDF3">
             SPRING
         </text>
         <!-- Cloud -->
         <rect
-            x="930"
+            x="960"
             y="186"
             width="96"
             height="26"
@@ -630,14 +630,14 @@
             r="4"
             fill="#3FB950"/>
         <text
-            x="956"
+            x="986"
             y="203"
             fill="#E6EDF3">
             CLOUD
         </text>
         <!-- Kafka -->
         <rect
-            x="930"
+            x="960"
             y="220"
             width="96"
             height="26"
@@ -650,7 +650,7 @@
             r="4"
             fill="#3FB950"/>
         <text
-            x="956"
+            x="986"
             y="237"
             fill="#E6EDF3">
             KAFKA
