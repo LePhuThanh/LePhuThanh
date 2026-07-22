@@ -822,14 +822,14 @@
         x="36"
         y="40"
         width="1128"
-        height="2"
+        height="1"
         fill="#58A6FF"
-        opacity=".08">
+        opacity=".05">
         <animateTransform
             attributeName="transform"
             type="translate"
             values="0 0;0 235;0 0"
-            dur="8s"
+            dur="10s"
             repeatCount="indefinite"/>
     </rect>
   
