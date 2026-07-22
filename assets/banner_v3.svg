@@ -211,36 +211,38 @@
     <!-- ===================================================== -->
     <!-- LEFT GLOW                                             -->
     <!-- ===================================================== -->
-    <circle
+    <ellipse
         cx="170"
         cy="160"
-        r="95"
+        rx="140"
+        ry="95"
         fill="#58A6FF"
-        opacity="0.06"
+        opacity="0.05"
         filter="url(#softGlow)">
         <animate
             attributeName="opacity"
-            values="0.04;0.08;0.04"
-            dur="8s"
+            values="0.03;0.06;0.03"
+            dur="9s"
             repeatCount="indefinite"/>
-    </circle>
+    </ellipse>
 
     <!-- ===================================================== -->
     <!-- RIGHT GLOW                                            -->
     <!-- ===================================================== -->
-    <circle
+    <ellipse
         cx="1030"
         cy="160"
-        r="120"
+        rx="140"
+        ry="95"
         fill="#58A6FF"
-        opacity="0.04"
+        opacity="0.05"
         filter="url(#softGlow)">
         <animate
             attributeName="opacity"
-            values="0.03;0.07;0.03"
-            dur="10s"
+            values="0.03;0.06;0.03"
+            dur="9s"
             repeatCount="indefinite"/>
-    </circle>
+    </ellipse>
 
     <!-- ===================================================== -->
     <!-- TOP LIGHT                                             -->
