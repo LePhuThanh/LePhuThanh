@@ -294,21 +294,21 @@
             stroke-width="2"/>
         <path
             id="flow2"
-            d="M420 140 L580 120"
+            d="M420 140 L580 80"
             fill="none"
             stroke="#2F81F7"
             stroke-opacity="0.18"
             stroke-width="2"/>
         <path
             id="flow3"
-            d="M580 120 L760 90"
+            d="M580 80 L760 90"
             fill="none"
             stroke="#2F81F7"
             stroke-opacity="0.18"
             stroke-width="2"/>
         <path
             id="flow4"
-            d="M580 120 L760 190"
+            d="M580 80 L760 190"
             fill="none"
             stroke="#2F81F7"
             stroke-opacity="0.18"
@@ -383,7 +383,7 @@
         <!-- ===================== -->
         <circle
             cx="580"
-            cy="120"
+            cy="80"
             r="8"
             fill="#58A6FF"
             filter="url(#blueGlow)">
@@ -485,7 +485,7 @@
         <text x="145" y="78">API</text>
         <text x="280" y="78">SPRING</text>
         <text x="385" y="123">SERVICE</text>
-        <text x="548" y="103">BUS</text>
+        <text x="548" y="63">BUS</text>
         <text x="738" y="72">KAFKA</text>
         <text x="739" y="210">REDIS</text>
         <text x="894" y="72">DATABASE</text>
