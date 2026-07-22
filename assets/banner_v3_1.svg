@@ -577,9 +577,9 @@
         font-size="12">
         <!-- Java -->
         <rect
-            x="930"
+            x="960"
             y="118"
-            width="96"
+            width="95"
             height="26"
             rx="11"
             fill="#161B22"
