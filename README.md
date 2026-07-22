@@ -1,10 +1,10 @@
 
 <p align="center">
-  <img src="assets/banner_v3_1.svg" width="100%">
+  <img src="assets/banner_v3_2.svg" width="100%">
 </p>
 
 <!--Header-->
-<h1 align="center"> Hi, I'm Phelim!
+<!-- <h1 align="center"> Hi, I'm Phelim!
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 </h1>
 <h3 align="center">
@@ -12,7 +12,7 @@ Backend Java Developer • Spring Boot • Spring Cloud • Microservices
 </h3>
 <p align="center">
 Building scalable backend systems with Java & Spring Ecosystem 🚀
-</p>
+</p> -->
 
 <!--Typing Animation-->
 <p align="center">
