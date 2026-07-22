@@ -217,7 +217,7 @@
             CD
         </text>
         <text
-            x="210"
+            x="206"
             y="52">
             Deploy
         </text>
@@ -228,8 +228,8 @@
     <g id="pacman">
         <text
             id="pacman-icon"
-            x="90"
-            y="60"
+            x="28"
+            y="58"
             font-family="'Segoe UI Symbol','Segoe UI','Arial Unicode MS',sans-serif"
             font-size="11"
             font-weight="600"
@@ -243,7 +243,7 @@
                 type="translate"
                 values="
                     0 0;
-                    120 0;
+                    178 0;
                     0 0"
                 keyTimes="
                     0;
@@ -259,16 +259,20 @@
         id="pacman-dots"
         fill="#8B949E"
         fill-opacity="0.35">
-        <circle cx="106" cy="60" r="1.6"/>
-        <circle cx="118" cy="60" r="1.6"/>
-        <circle cx="130" cy="60" r="1.6"/>
-        <circle cx="142" cy="60" r="1.6"/>
-        <circle cx="154" cy="60" r="1.6"/>
-        <circle cx="166" cy="60" r="1.6"/>
-        <circle cx="178" cy="60" r="1.6"/>
-        <circle cx="190" cy="60" r="1.6"/>
-        <circle cx="202" cy="60" r="1.6"/>
-        <circle cx="214" cy="60" r="1.6"/>
+        <circle cx="42"  cy="58" r="1.6"/>
+        <circle cx="54"  cy="58" r="1.6"/>
+        <circle cx="66"  cy="58" r="1.6"/>
+        <circle cx="78"  cy="58" r="1.6"/>
+        <circle cx="90"  cy="58" r="1.6"/>
+        <circle cx="102" cy="58" r="1.6"/>
+        <circle cx="114" cy="58" r="1.6"/>
+        <circle cx="126" cy="58" r="1.6"/>
+        <circle cx="138" cy="58" r="1.6"/>
+        <circle cx="150" cy="58" r="1.6"/>
+        <circle cx="162" cy="58" r="1.6"/>
+        <circle cx="174" cy="58" r="1.6"/>
+        <circle cx="186" cy="58" r="1.6"/>
+        <circle cx="198" cy="58" r="1.6"/>
     </g>
     <!-- ===================================================== -->
     <!-- SUCCESS                                               -->
