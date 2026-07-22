@@ -98,7 +98,7 @@
     <g id="pipeline-title">
         <text
             x="16"
-            y="18"
+            y="19"
             font-family="Consolas, 'Courier New', monospace"
             font-size="9"
             font-weight="600"
@@ -130,13 +130,13 @@
             x2="210"
             y2="36"
             stroke="#3B82F6"
-            stroke-width="1.2"
+            stroke-width="1.0"
             stroke-opacity="0.35"/>
         <!-- ================================================= -->
         <!-- Commit Node                                       -->
         <!-- ================================================= -->
         <circle
-            cx="30"
+            cx="34"
             cy="36"
             r="2.5"
             fill="#58A6FF">
@@ -180,7 +180,7 @@
         <!-- Deploy Node                                       -->
         <!-- ================================================= -->
         <circle
-            cx="210"
+            cx="206"
             cy="36"
             r="2.5"
             fill="#58A6FF">
@@ -198,10 +198,11 @@
     <g id="pipeline-labels"
        font-family="Segoe UI, Arial, sans-serif"
        font-size="8"
+       font-weight="500"
        fill="#8B949E"
        text-anchor="middle">
         <text
-            x="30"
+            x="34"
             y="52">
             Commit
         </text>
@@ -230,7 +231,7 @@
             x="90"
             y="60"
             font-family="'Segoe UI Symbol','Segoe UI','Arial Unicode MS',sans-serif"
-            font-size="12"
+            font-size="11"
             font-weight="600"
             fill="#58A6FF"
             dominant-baseline="middle">
@@ -256,7 +257,7 @@
     <!-- ===================================================== -->
     <g
         id="pacman-dots"
-        fill="#6E7681"
+        fill="#8B949E"
         fill-opacity="0.35">
         <circle cx="106" cy="60" r="1.6"/>
         <circle cx="118" cy="60" r="1.6"/>
