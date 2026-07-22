@@ -120,8 +120,8 @@
         <!-- ================================================ -->
         <pattern
             id="gridPattern"
-            width="40"
-            height="40"
+            width="60"
+            height="60"
             patternUnits="userSpaceOnUse">
             <path
                 d="M40 0 L0 0 0 40"
@@ -214,7 +214,7 @@
     <circle
         cx="170"
         cy="160"
-        r="95"
+        r="75"
         fill="#58A6FF"
         opacity="0.06"
         filter="url(#softGlow)">
@@ -231,7 +231,7 @@
     <circle
         cx="1030"
         cy="160"
-        r="120"
+        r="90"
         fill="#58A6FF"
         opacity="0.04"
         filter="url(#softGlow)">
@@ -268,15 +268,11 @@
     <!-- ===================================================== -->
     <!-- CONTENT START                                         -->
     <!-- ===================================================== -->
-    <!--
-        PART 2
-
+    <!-- PART 2
         Enterprise Network
         Animated Nodes
         Data Flow
-        API Gateway Diagram
-
-    -->
+        API Gateway Diagram -->
     <!-- ===================================================== -->
     <!-- ENTERPRISE NETWORK                                    -->
     <!-- ===================================================== -->
@@ -333,7 +329,7 @@
         <!-- ===================== -->
         <circle
             cx="170"
-            cy="95"
+            cy="65"
             r="7"
             fill="#58A6FF"
             filter="url(#blueGlow)">
@@ -349,7 +345,7 @@
         <!-- ===================== -->
         <circle
             cx="310"
-            cy="95"
+            cy="65"
             r="7"
             fill="#6DB33F"
             filter="url(#blueGlow)">
@@ -366,7 +362,7 @@
         <!-- ===================== -->
         <circle
             cx="420"
-            cy="140"
+            cy="110"
             r="8"
             fill="#58A6FF"
             filter="url(#blueGlow)">
@@ -383,7 +379,7 @@
         <!-- ===================== -->
         <circle
             cx="580"
-            cy="140"
+            cy="110"
             r="8"
             fill="#58A6FF"
             filter="url(#blueGlow)">
@@ -400,7 +396,7 @@
         <!-- ===================== -->
         <circle
             cx="760"
-            cy="90"
+            cy="60"
             r="7"
             fill="#58A6FF"/>
         <!-- ===================== -->
@@ -408,7 +404,7 @@
         <!-- ===================== -->
         <circle
             cx="760"
-            cy="190"
+            cy="160"
             r="7"
             fill="#58A6FF"/>
         <!-- ===================== -->
@@ -416,7 +412,7 @@
         <!-- ===================== -->
         <circle
             cx="920"
-            cy="90"
+            cy="60"
             r="7"
             fill="#58A6FF"/>
         <!-- ===================== -->
@@ -424,7 +420,7 @@
         <!-- ===================== -->
         <circle
             cx="920"
-            cy="190"
+            cy="160"
             r="7"
             fill="#58A6FF"/>
     </g>
@@ -525,7 +521,7 @@
             y="145"
             text-anchor="middle"
             font-family="Segoe UI, Inter, Arial"
-            font-size="52"
+            font-size="48"
             font-weight="700"
             letter-spacing="4"
             fill="#E6EDF3">
@@ -549,7 +545,7 @@
         <!-- Subtitle -->
         <text
             x="600"
-            y="186"
+            y="194"
             text-anchor="middle"
             font-family="Segoe UI"
             font-size="20"
@@ -560,12 +556,12 @@
         <!-- Description -->
         <text
             x="600"
-            y="212"
+            y="222"
             text-anchor="middle"
             font-family="Segoe UI"
             font-size="14"
             fill="#8B949E">
-            Building scalable • secure • cloud-native backend systems
+            Backend Java Developer • Spring Boot • Spring Cloud • Microservices
         </text>
     </g>
 
@@ -577,15 +573,15 @@
         font-size="12">
         <!-- Java -->
         <rect
-            x="860"
+            x="900"
             y="118"
-            width="120"
+            width="105"
             height="26"
             rx="13"
             fill="#161B22"
             stroke="#30363D"/>
         <circle
-            cx="875"
+            cx="915"
             cy="131"
             r="4"
             fill="#3FB950"/>
@@ -597,15 +593,15 @@
         </text>
         <!-- Spring -->
         <rect
-            x="860"
+            x="900"
             y="152"
-            width="120"
+            width="105"
             height="26"
             rx="13"
             fill="#161B22"
             stroke="#30363D"/>
         <circle
-            cx="875"
+            cx="915"
             cy="165"
             r="4"
             fill="#3FB950"/>
@@ -617,15 +613,15 @@
         </text>
         <!-- Cloud -->
         <rect
-            x="860"
+            x="900"
             y="186"
-            width="120"
+            width="105"
             height="26"
             rx="13"
             fill="#161B22"
             stroke="#30363D"/>
         <circle
-            cx="875"
+            cx="915"
             cy="199"
             r="4"
             fill="#3FB950"/>
@@ -637,20 +633,20 @@
         </text>
         <!-- Kafka -->
         <rect
-            x="860"
+            x="900"
             y="220"
-            width="120"
+            width="105"
             height="26"
             rx="13"
             fill="#161B22"
             stroke="#30363D"/>
         <circle
-            cx="875"
+            cx="915"
             cy="233"
             r="4"
             fill="#3FB950"/>
         <text
-            x="888"
+            x="928"
             y="237"
             fill="#E6EDF3">
             KAFKA
@@ -678,7 +674,7 @@
             x="82"
             y="59"
             fill="#8B949E">
-            backend-service : healthy
+            Backend Service
         </text>
     </g>
   
@@ -726,6 +722,6 @@
         font-family="Consolas"
         font-size="11"
         fill="#6E7681">
-        v2.0 • Enterprise Edition
+        v2.0 • Enterprise Edition • Le Phu Thanh
     </text>
 </svg>
