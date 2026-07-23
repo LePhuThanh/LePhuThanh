@@ -58,26 +58,6 @@
                 stop-color="#FFFFFF"
                 stop-opacity="0.00"/>
         </linearGradient>
-        <!-- PIPELINE FLOW -->
-        <linearGradient
-            id="pipelineFlow"
-            x1="0%"
-            y1="0%"
-            x2="100%"
-            y2="0%">
-            <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
-            <stop offset="45%" stop-color="#3B82F6" stop-opacity="0"/>
-            <stop offset="50%" stop-color="#A5D6FF" stop-opacity="0.95"/>
-            <stop offset="55%" stop-color="#3B82F6" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
-            <animateTransform
-                attributeName="gradientTransform"
-                type="translate"
-                from="-1 0"
-                to="1 0"
-                dur="2.2s"
-                repeatCount="indefinite"/>
-        </linearGradient>
         <!-- ENERGY TRAIL -->
         <linearGradient
                 id="energyGradient"
@@ -173,14 +153,35 @@
             stroke-linecap="round"
             stroke-opacity="0.55"/>
         <line
+            id="pipeline-progress"
             x1="30"
             y1="36"
-            x2="210"
+            x2="30"
             y2="36"
-            stroke="url(#pipelineFlow)"
+            stroke="#79C0FF"
             stroke-width="2"
-            stroke-linecap="round"/>
-        
+            stroke-linecap="round">
+            <animate
+                attributeName="x2"
+                values="
+                    30;
+                    34;
+                    90;
+                    150;
+                    206;
+                    210;
+                    30"
+                keyTimes="
+                    0;
+                    0.08;
+                    0.28;
+                    0.58;
+                    0.85;
+                    0.99;
+                    1"
+                dur="6s"
+                repeatCount="indefinite"/>
+        </line>
         <!-- ================================================= -->
         <!-- Commit Node                                       -->
         <!-- ================================================= -->
