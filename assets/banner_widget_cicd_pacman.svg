@@ -155,8 +155,8 @@
         <rect id="build-progress-fill" x="62" y="23" width="0" height="5" rx="2.5" ry="2.5" fill="#58A6FF">
             <animate
                 attributeName="width"
-                values="0;4;30;60;96;100;100;0"
-                keyTimes="0;0.08;0.28;0.58;0.85;0.95;0.99;1"
+                values="0;4;30;60;96;100;0"
+                keyTimes="0;0.08;0.28;0.58;0.85;0.94;1"
                 calcMode="spline"
                 keySplines="
                     0.42 0 0.58 1;
@@ -218,7 +218,7 @@
     <g id="build-success">
         <text x="112" y="28" font-family="Segoe UI, Arial, sans-serif" font-size="7" font-weight="600" fill="#3FB950" text-anchor="middle" opacity="0">
             SUCCESS
-            <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.985;0.99;0.999;1" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.90;0.94;0.985;1" dur="6s" repeatCount="indefinite"/>
         </text>
     </g>
     <!-- ===================================================== -->
@@ -246,24 +246,8 @@
             stroke-linecap="round">
             <animate
                 attributeName="x2"
-                values="
-                    30;
-                    34;
-                    90;
-                    150;
-                    206;
-                    210;
-                    210;
-                    30"
-                keyTimes="
-                    0;
-                    0.08;
-                    0.28;
-                    0.58;
-                    0.85;
-                    0.95;
-                    0.99;
-                    1"
+                values="30;34;90;150;206;210;30"
+                keyTimes="0;0.08;0.28;0.58;0.85;0.94;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </line>
@@ -556,8 +540,8 @@
                 keyTimes="0;0.05;0.08;0.82;0.85;0.86;0.99;1" 
                 dur="6s" repeatCount="indefinite"/>
             <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-                values="0 0;175 0;0 0" 
-                keyTimes="0;0.85;1" 
+                values="0 0;175 0;175 0;0 0"
+                keyTimes="0;0.85;0.94;1"
                 dur="6s" repeatCount="indefinite"/>
         </text>
         <!-- Main Pac-Man -->
@@ -572,8 +556,8 @@
             dominant-baseline="middle">
             ᗧ
             <animateTransform attributeName="transform" type="translate" 
-                values="0 0;175 0;0 0" 
-                keyTimes="0;0.85;1" 
+                values="0 0;175 0;175 0;0 0"
+                keyTimes="0;0.85;0.94;1" 
                 dur="6s" 
                 repeatCount="indefinite"/>
             <animate attributeName="opacity" 
