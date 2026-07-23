@@ -514,58 +514,25 @@
         <circle cx="34" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.01;
-                    0.025;
-                    0.04;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.01;0.025;0.04;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- Dot -->
-        <circle
-            cx="34"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
+        <circle cx="34" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.01;
-                    0.025;
-                    0.04;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.01;0.025;0.04;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.025;
-                    0.04;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.025;0.04;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -573,160 +540,64 @@
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.01;
-                    0.03;
-                    0.05;
-                    1"/>
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.01;0.03;0.05;1"/>
         </circle>
         <!-- ========================= DOT 1 ============================ -->
         <!-- Glow -->
-        <circle
-            cx="46"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
+        <circle cx="46" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.06;
-                    0.075;
-                    0.09;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.06;0.075;0.09;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- Dot -->
-        <circle
-            cx="46"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
+        <circle cx="46" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.06;
-                    0.075;
-                    0.09;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.06;0.075;0.09;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.075;
-                    0.09;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.075;0.09;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <animate
                 attributeName="opacity"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.06;
-                    0.08;
-                    0.10;
-                    1"
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.06;0.08;0.10;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- ========================= DOT 2 ============================ -->
         <!-- Glow -->
-        <circle
-            cx="57"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
+        <circle cx="57" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.11;
-                    0.125;
-                    0.14;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.11;0.125;0.14;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- Dot -->
-        <circle
-            cx="57"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
+        <circle cx="57" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.11;
-                    0.125;
-                    0.14;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.11;0.125;0.14;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.125;
-                    0.14;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.125;0.14;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -734,81 +605,33 @@
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.11;
-                    0.13;
-                    0.15;
-                    1"/>
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.11;0.13;0.15;1"/>
         </circle>
         <!-- ========================= DOT 3 ============================ -->
         <!-- Glow -->
-        <circle
-            cx="69"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
+        <circle cx="69" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.16;
-                    0.175;
-                    0.19;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.16;0.175;0.19;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- Dot -->
-        <circle
-            cx="69"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
+        <circle cx="69" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.16;
-                    0.175;
-                    0.19;
-                    1"
+                values="1.6;1.6;2.0;1.6; 1.6"
+                keyTimes="0;0.16;0.175;0.19;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.175;
-                    0.19;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.175;0.19;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -816,1098 +639,416 @@
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.16;
-                    0.18;
-                    0.20;
-                    1"/>
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.16;0.18;0.20;1"/>
         </circle>
         <!-- ========================= DOT 4 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="80"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="80" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.21;
-                    0.225;
-                    0.24;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.21;0.225;0.24;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="80"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="80" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.21;
-                    0.225;
-                    0.24;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.21;0.225;0.24;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.225;
-                    0.24;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.225;0.24;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.21;
-                    0.23;
-                    0.25;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.21;0.23;0.25;1"/>
         </circle>
         <!-- ========================= DOT 5 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="92"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="92" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.26;
-                    0.275;
-                    0.29;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.26;0.275;0.29;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="92"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="92" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.26;
-                    0.275;
-                    0.29;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.26;0.275;0.29;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.275;
-                    0.29;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.275;0.29;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.26;
-                    0.28;
-                    0.30;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.26;0.28;0.30;1"/>
         </circle>
         <!-- ========================= DOT 6 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="103"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="103" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.31;
-                    0.325;
-                    0.34;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.31;0.325;0.34;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="103"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="103" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.31;
-                    0.325;
-                    0.34;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.31;0.325;0.34;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.325;
-                    0.34;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.325;0.34;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.31;
-                    0.33;
-                    0.35;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.31;0.33;0.35;1"/>
         </circle>
         <!-- ========================= DOT 7 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="115"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="115" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.36;
-                    0.375;
-                    0.39;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.36;0.375;0.39;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="115"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="115" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.36;
-                    0.375;
-                    0.39;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.36;0.375;0.39;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.375;
-                    0.39;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.375;0.39;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.36;
-                    0.38;
-                    0.40;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.36;0.38;0.40;1"/>
         </circle>
         <!-- ========================= DOT 8 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="126"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="126" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.42;
-                    0.435;
-                    0.45;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.42;0.435;0.45;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="126"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="126" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.42;
-                    0.435;
-                    0.45;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.42;0.435;0.45;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.435;
-                    0.45;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.435;0.45;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.42;
-                    0.44;
-                    0.46;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.42;0.44;0.46;1"/>
         </circle>
         <!-- ========================= DOT 9 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="138"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="138" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.48;
-                    0.495;
-                    0.51;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.48;0.495;0.51;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="138"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="138" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.48;
-                    0.495;
-                    0.51;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.48;0.495;0.51;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.495;
-                    0.51;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.495;0.51;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.48;
-                    0.50;
-                    0.52;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.48;0.50;0.52;1"/>
         </circle>
         <!-- ========================= DOT 10 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="149"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="149" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.54;
-                    0.555;
-                    0.57;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.54;0.555;0.57;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="149"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="149" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.54;
-                    0.555;
-                    0.57;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.54;0.555;0.57;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.555;
-                    0.57;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.555;0.57;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.54;
-                    0.56;
-                    0.58;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.54;0.56;0.58;1"/>
         </circle>
         <!-- ========================= DOT 11 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="161"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="161" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.60;
-                    0.615;
-                    0.63;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.60;0.615;0.63;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="161"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="161" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.60;
-                    0.615;
-                    0.63;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.60;0.615;0.63;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.615;
-                    0.63;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.615;0.63;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.60;
-                    0.62;
-                    0.64;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.60;0.62;0.64;1"/>
         </circle>
         <!-- ========================= DOT 12 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="172"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="172" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.67;
-                    0.685;
-                    0.70;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.67;0.685;0.70;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="172"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="172" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.67;
-                    0.685;
-                    0.70;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.67;0.685;0.70;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.685;
-                    0.70;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.685;0.70;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.67;
-                    0.69;
-                    0.71;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.67;0.69;0.71;1"/>
         </circle>
         <!-- ========================= DOT 13 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="184"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="184" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.74;
-                    0.755;
-                    0.77;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.74;0.755;0.77;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="184"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="184" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.74;
-                    0.755;
-                    0.77;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.74;0.755;0.77;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.755;
-                    0.77;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.755;0.77;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.74;
-                    0.76;
-                    0.78;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.74;0.76;0.78;1"/>
         </circle>
         <!-- ========================= DOT 14 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="195"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="195" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.81;
-                    0.825;
-                    0.84;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.81;0.825;0.84;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="195"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="195" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.81;
-                    0.825;
-                    0.84;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.81;0.825;0.84;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.825;
-                    0.84;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.825;0.84;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.81;
-                    0.83;
-                    0.85;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.81;0.83;0.85;1"/>
         </circle>
         <!-- ========================= DOT 15 ============================ -->
-
         <!-- Glow -->
-        <circle
-            cx="207"
-            cy="58"
-            r="3"
-            fill="#79C0FF"
-            opacity="0">
-        
+        <circle cx="207" cy="58" r="3" fill="#79C0FF" opacity="0">
             <animate
                 attributeName="opacity"
-                values="
-                    0;
-                    0;
-                    0.30;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.86;
-                    0.875;
-                    0.89;
-                    1"
+                values="0;0;0.30;0;0"
+                keyTimes="0;0.86;0.875;0.89;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
         </circle>
-        
         <!-- Dot -->
-        <circle
-            cx="207"
-            cy="58"
-            r="1.6"
-            fill="#C9D1D9"
-            opacity="0.45">
-        
+        <circle cx="207" cy="58" r="1.6" fill="#C9D1D9" opacity="0.45">
             <!-- Little Glow -->
             <animate
                 attributeName="r"
-                values="
-                    1.6;
-                    1.6;
-                    2.0;
-                    1.6;
-                    1.6"
-                keyTimes="
-                    0;
-                    0.86;
-                    0.875;
-                    0.89;
-                    1"
+                values="1.6;1.6;2.0;1.6;1.6"
+                keyTimes="0;0.86;0.875;0.89;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Flash -->
             <animate
                 attributeName="fill"
-                values="
-                    #C9D1D9;
-                    #FFFFFF;
-                    #C9D1D9;
-                    #C9D1D9"
-                keyTimes="
-                    0;
-                    0.875;
-                    0.89;
-                    1"
+                values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
+                keyTimes="0;0.875;0.89;1"
                 dur="6s"
                 repeatCount="indefinite"/>
-        
             <!-- Eaten by Pac-Man -->
             <animate
                 attributeName="opacity"
                 dur="6s"
                 repeatCount="indefinite"
-                values="
-                    1;
-                    1;
-                    0.35;
-                    0;
-                    0"
-                keyTimes="
-                    0;
-                    0.86;
-                    0.88;
-                    0.90;
-                    1"/>
-        
+                values="1;1;0.35;0;0"
+                keyTimes="0;0.86;0.88;0.90;1"/>
         </circle>
     </g>
     <!-- ===================================================== -->
