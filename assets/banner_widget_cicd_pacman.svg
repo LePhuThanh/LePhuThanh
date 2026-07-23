@@ -58,6 +58,26 @@
                 stop-color="#FFFFFF"
                 stop-opacity="0.00"/>
         </linearGradient>
+        <!-- PIPELINE FLOW -->
+        <linearGradient
+            id="pipelineFlow"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="0%">
+            <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
+            <stop offset="45%" stop-color="#3B82F6" stop-opacity="0"/>
+            <stop offset="50%" stop-color="#A5D6FF" stop-opacity="0.95"/>
+            <stop offset="55%" stop-color="#3B82F6" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+            <animateTransform
+                attributeName="gradientTransform"
+                type="translate"
+                from="-1 0"
+                to="1 0"
+                dur="2.2s"
+                repeatCount="indefinite"/>
+        </linearGradient>
     </defs>
     <!-- ===================================================== -->
     <!-- CONTAINER                                             -->
@@ -105,8 +125,8 @@
             font-family="Consolas, 'Courier New', monospace"
             font-size="9"
             font-weight="700"
-            letter-spacing="1.5"
-            fill="#8B949E">
+            letter-spacing="2"
+            fill="#AAB8C5">
             BUILD PIPELINE
         </text>
         <!-- Status Indicator -->
@@ -126,15 +146,25 @@
     <!-- PIPELINE NODES                                        -->
     <!-- ===================================================== -->
     <g id="pipeline-nodes">
-        <!-- Connection Line -->
+        <!-- Connection Line (Pipeline Line) -->
         <line
             x1="30"
             y1="36"
             x2="210"
             y2="36"
             stroke="#3B82F6"
-            stroke-width="1.0"
+            stroke-width="1"
+            stroke-linecap="round"
             stroke-opacity="0.55"/>
+        <line
+            x1="30"
+            y1="36"
+            x2="210"
+            y2="36"
+            stroke="url(#pipelineFlow)"
+            stroke-width="2"
+            stroke-linecap="round"/>
+        
         <!-- ================================================= -->
         <!-- Commit Node                                       -->
         <!-- ================================================= -->
