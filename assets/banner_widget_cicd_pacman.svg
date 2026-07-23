@@ -198,12 +198,14 @@
                     0;
                     0.18;
                     0.18;
+                    0.18;
                     0"
                 keyTimes="
-                    0;
-                    0.05;
-                    0.08;
-                    0.90;
+                    0
+                    0.05
+                    0.08
+                    0.98
+                    0.999
                     1"
                 dur="6s"
                 repeatCount="indefinite"/>
@@ -221,12 +223,14 @@
                     #445063;
                     #58A6FF;
                     #58A6FF;
+                    #58A6FF;
                     #445063"
                 keyTimes="
                     0;
                     0.05;
                     0.08;
-                    0.90;
+                    0.98;
+                    0.999;
                     1"
                 dur="6s"
                 repeatCount="indefinite"/>
@@ -248,12 +252,14 @@
                     0;
                     0.18;
                     0.18;
+                    0.18;
                     0"
                 keyTimes="
-                    0;
-                    0.24;
-                    0.28;
-                    0.90;
+                    0
+                    0.24
+                    0.28
+                    0.98
+                    0.999
                     1"
                 dur="6s"
                 repeatCount="indefinite"/>
@@ -271,12 +277,14 @@
                     #445063;
                     #58A6FF;
                     #58A6FF;
+                    #58A6FF;
                     #445063"
                 keyTimes="
-                    0;
-                    0.24;
-                    0.28;
-                    0.90;
+                    0
+                    0.24
+                    0.28
+                    0.98
+                    0.999
                     1"
                 dur="6s"
                 repeatCount="indefinite"/>
@@ -298,12 +306,14 @@
                     0;
                     0.18;
                     0.18;
+                    0.18;
                     0"
                 keyTimes="
-                    0;
-                    0.54;
-                    0.58;
-                    0.90;
+                    0
+                    0.54
+                    0.58
+                    0.98
+                    0.999
                     1"
                 dur="6s"
                 repeatCount="indefinite"/>
@@ -321,13 +331,15 @@
                     #445063;
                     #58A6FF;
                     #58A6FF;
+                    #58A6FF;
                     #445063"
                 keyTimes="
-                    0;
-                    0.54;
-                    0.58;
-                    0.90;
-                    1"
+                    0
+                    0.54
+                    0.58
+                    0.98
+                    0.999
+                    1
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -335,33 +347,45 @@
         <!-- Deploy Node                                       -->
         <!-- ================================================= -->
         <!-- Glow -->
-        <circle cx="206" cy="36" r="3.8" fill="#58A6FF" opacity="0.14">
-            <animate
-                attributeName="fill"
-                values="#58A6FF;#58A6FF;#3FB950;#58A6FF;#58A6FF"
-                keyTimes="0;0.80;0.85;0.90;1"
-                dur="6s"
-                repeatCount="indefinite"/>
+        <circle cx="206" cy="36" r="3.8" fill="#3FB950" opacity="0">
             <animate
                 attributeName="opacity"
-                values="0.08;0.18;0.08"
-                begin="1.2s"
-                dur="2.8s"
+                values="
+                    0;
+                    0;
+                    0.22;
+                    0.22;
+                    0.22;
+                    0"
+                keyTimes="
+                    0;
+                    0.82;
+                    0.85;
+                    0.98;
+                    0.999;
+                    1"
+                dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- Main Node -->
-        <circle cx="206" cy="36" r="2.5" fill="#58A6FF">
+        <circle cx="206" cy="36" r="2.5" fill="#445063">
             <animate
                 attributeName="fill"
-                values="#58A6FF;#58A6FF;#3FB950;#58A6FF;#58A6FF"
-                keyTimes="0;0.80;0.85;0.90;1"
+                values="
+                    #445063;
+                    #445063;
+                    #3FB950;
+                    #3FB950;
+                    #3FB950;
+                    #445063"
+                keyTimes="
+                    0;
+                    0.82;
+                    0.85;
+                    0.98;
+                    0.999;
+                    1"
                 dur="6s"
-                repeatCount="indefinite"/>
-            <animate
-                attributeName="r"
-                values="2.5;3.2;2.5"
-                begin="1.2s"
-                dur="2.8s"
                 repeatCount="indefinite"/>
         </circle>
     </g>
