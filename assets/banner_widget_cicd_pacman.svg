@@ -469,65 +469,71 @@
     <!-- PAC-MAN                                               -->
     <!-- ===================================================== -->
     <g id="pacman">
-        <!-- Energy Trail -->
-        <line
-            x1="30"
-            y1="36"
-            x2="54"
-            y2="36"
-            stroke="url(#energyGradient)"
-            stroke-width="2"
-            stroke-linecap="round"
-            opacity="0.75">
-            <animate
-                attributeName="opacity"
-                values="0.35;0.75;0.35"
-                dur="1s" repeatCount="indefinite"/>
-            
-        </line>
-        <!-- Ghost Pac-Man -->
-        <text
-            id="pacman-ghost"
-            x="25"
-            y="58"
-            font-family="'Segoe UI Symbol','Segoe UI','Arial Unicode MS',sans-serif"
-            font-size="11"
-            font-weight="600"
-            fill="#FFD65A"
-            dominant-baseline="middle"
-            opacity="0">
-            ᗧ
-            <animate 
-                attributeName="opacity" 
-                values="0;0;0.14;0.14;0.14;0;0;0" 
-                keyTimes="0;0.05;0.08;0.82;0.85;0.86;0.99;1" 
+        <g id="pacman-group">
+            <!-- Energy Trail -->
+            <line
+                x1="30"
+                y1="36"
+                x2="48"
+                y2="36"
+                stroke="url(#energyGradient)"
+                stroke-width="2"
+                stroke-linecap="round"
+                opacity="0.75">
+                <animate attributeName="opacity" 
+                    values="0;0;0.35;0.75;0.75;0;0" 
+                    keyTimes="0;0.05;0.08;0.58;0.985;0.995;1" 
+                    dur="6s" repeatCount="indefinite"/>
+                <animate attributeName="stroke-width" 
+                    values="1;1.4;1.8;2.3;2.8;2.3;1" 
+                    keyTimes="0;0.08;0.28;0.58;0.85;0.985;1" 
+                    calcMode="spline" 
+                    keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0 0 1 1" 
+                    dur="6s" repeatCount="indefinite"/>
+            </line>
+            <!-- Ghost Pac-Man -->
+            <text
+                id="pacman-ghost"
+                x="25"
+                y="58"
+                font-family="'Segoe UI Symbol','Segoe UI','Arial Unicode MS',sans-serif"
+                font-size="11"
+                font-weight="600"
+                fill="#FFD65A"
+                dominant-baseline="middle"
+                opacity="0"
+                transform="translate(0 0)">
+                ᗧ
+                <animate 
+                    attributeName="opacity" 
+                    values="0;0;0.14;0.14;0;0" 
+                    keyTimes="0;0.05;0.08;0.985;0.995;1"
+                    dur="6s" repeatCount="indefinite"/>
+            </text>
+            <!-- Main Pac-Man -->
+            <text
+                id="pacman-icon"
+                x="28"
+                y="58"
+                font-family="'Segoe UI Symbol','Segoe UI','Arial Unicode MS',sans-serif"
+                font-size="11"
+                font-weight="600"
+                fill="#FFC83D"
+                dominant-baseline="middle"
+                transform="translate(0 0)">
+                ᗧ
+                <animate attributeName="opacity" 
+                    values="0;0;1;1;0;0" 
+                    keyTimes="0;0.05;0.08;0.985;0.995;1" 
+                    dur="6s" repeatCount="indefinite"/>
+            </text>
+            <!-- Animate all element in group -->
+            <animateTransform attributeName="transform" type="translate" additive="replace" 
+                values="0 0;175 0;175 0;175 0;0 0"
+                keyTimes="0;0.85;0.94;0.985;1" 
+                calcMode="discrete" 
                 dur="6s" repeatCount="indefinite"/>
-            <animateTransform attributeName="transform" attributeType="XML" type="translate" 
-                values="0 0;175 0;175 0;0 0"
-                keyTimes="0;0.85;0.94;1"
-                dur="6s" repeatCount="indefinite"/>
-        </text>
-        <!-- Main Pac-Man -->
-        <text
-            id="pacman-icon"
-            x="28"
-            y="58"
-            font-family="'Segoe UI Symbol','Segoe UI','Arial Unicode MS',sans-serif"
-            font-size="11"
-            font-weight="600"
-            fill="#FFC83D"
-            dominant-baseline="middle">
-            ᗧ
-            <animateTransform attributeName="transform" type="translate" 
-                values="0 0;175 0;175 0;0 0"
-                keyTimes="0;0.85;0.94;1" 
-                dur="6s" 
-                repeatCount="indefinite"/>
-            <animate attributeName="opacity" 
-                values="0;0;1;1;1;0;0;0" 
-                keyTimes="0;0.05;0.08;0.82;0.85;0.86;0.99;1" 
-                dur="6s" repeatCount="indefinite"/>
-        </text>
+        </g>
     </g>
     <!-- ===================================================== -->
     <!-- DOTS                                                  -->
