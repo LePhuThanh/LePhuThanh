@@ -146,8 +146,6 @@
             Building...
             <!-- Fill Animation -->
             <animate attributeName="fill" values="#8B949E;#8B949E;#C9D1D9;#C9D1D9;#8B949E" keyTimes="0;0.05;0.08;0.85;1" dur="6s" repeatCount="indefinite"/>
-            <!-- Hide when SUCCESS appears -->
-            <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.08;0.58;0.94;0.96;1" dur="6s" repeatCount="indefinite"/>
         </text>
         <!-- Background -->
         <rect x="62" y="23" width="100" height="5" rx="2.5" ry="2.5" fill="#30363D" stroke="#484F58" stroke-width="0.5"/>
@@ -167,12 +165,8 @@
                     0.42 0 0.58 1"
                 dur="6s"
                 repeatCount="indefinite"/>
-            <animate
-                attributeName="opacity"
-                values="1;1;1;0.7;1"
-                keyTimes="0;0.985;0.995;0.998;1"
-                dur="6s"
-                repeatCount="indefinite"/>
+            <animate attributeName="fill" values="#58A6FF;#58A6FF;#58A6FF;#3FB950;#3FB950;#58A6FF" keyTimes="0;0.85;0.94;0.945;0.975;1" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="1;1;1;1;0;0;1" keyTimes="0;0.85;0.94;0.965;0.975;0.995;1" dur="6s" repeatCount="indefinite"/>
         </rect>
         <!-- Top Highlight -->
         <rect x="62" y="23" width="100" height="2" rx="2" fill="#FFFFFF" opacity="0.07"/>
@@ -213,43 +207,15 @@
         </text>
     </g>
     <!-- ===================================================== -->
-    <!-- BUILD SUCCESS                                          -->
-    <!-- ===================================================== -->
-    <g id="build-success">
-        <text x="112" y="28" font-family="Segoe UI, Arial, sans-serif" font-size="7" font-weight="600" fill="#3FB950" text-anchor="middle" opacity="0">
-            SUCCESS
-            <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.90;0.94;0.985;1" dur="6s" repeatCount="indefinite"/>
-        </text>
-    </g>
-    <!-- ===================================================== -->
     <!-- PIPELINE NODES                                        -->
     <!-- ===================================================== -->
     <g id="pipeline-nodes">
         <!-- Connection Line (Pipeline Line) -->
-        <line
-            x1="30"
-            y1="36"
-            x2="210"
-            y2="36"
-            stroke="#3B82F6"
-            stroke-width="1"
-            stroke-linecap="round"
-            stroke-opacity="0.55"/>
-        <line
-            id="pipeline-progress"
-            x1="30"
-            y1="36"
-            x2="30"
-            y2="36"
-            stroke="#79C0FF"
-            stroke-width="2"
-            stroke-linecap="round">
-            <animate
-                attributeName="x2"
-                values="30;34;90;150;206;210;30"
-                keyTimes="0;0.08;0.28;0.58;0.85;0.94;1"
-                dur="6s"
-                repeatCount="indefinite"/>
+        <line x1="30" y1="36" x2="210" y2="36" stroke="#3B82F6" stroke-width="1" stroke-linecap="round" stroke-opacity="0.55"/>
+        
+        <line id="pipeline-progress" x1="30" y1="36" x2="30" y2="36" stroke="#79C0FF" stroke-width="2" stroke-linecap="round">
+            <animate attributeName="x2" values="30;34;90;150;206;210;30" keyTimes="0;0.08;0.28;0.58;0.85;0.94;1" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="1;1;1;1;0;0;1" keyTimes="0;0.85;0.94;0.965;0.975;0.995;1" dur="6s" repeatCount="indefinite"/>
         </line>
         <!-- ================================================= -->
         <!-- Commit Node                                       -->
