@@ -189,7 +189,7 @@
         <circle
             cx="34"
             cy="36"
-            r="3.8"
+            r="4"
             fill="#58A6FF"
             opacity="0">
             <animate
@@ -243,7 +243,7 @@
         <circle
             cx="90"
             cy="36"
-            r="3.8"
+            r="4"
             fill="#58A6FF"
             opacity="0">
             <animate
@@ -297,7 +297,7 @@
         <circle
             cx="150"
             cy="36"
-            r="3.8"
+            r="4"
             fill="#58A6FF"
             opacity="0">
             <animate
@@ -348,7 +348,7 @@
         <!-- Deploy Node                                       -->
         <!-- ================================================= -->
         <!-- Glow -->
-        <circle cx="206" cy="36" r="3.8" fill="#3FB950" opacity="0">
+        <circle cx="206" cy="36" r="4" fill="#3FB950" opacity="0">
             <animate
                 attributeName="opacity"
                 values="
