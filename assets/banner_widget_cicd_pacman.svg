@@ -190,11 +190,22 @@
             cy="36"
             r="3.8"
             fill="#58A6FF"
-            opacity="0.14">
+            opacity="0">
             <animate
                 attributeName="opacity"
-                values="0.08;0.18;0.08"
-                dur="2.8s"
+                values="
+                    0;
+                    0;
+                    0.18;
+                    0.18;
+                    0"
+                keyTimes="
+                    0;
+                    0.05;
+                    0.08;
+                    0.90;
+                    1"
+                dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- Main Node -->
@@ -202,11 +213,22 @@
             cx="34"
             cy="36"
             r="2.5"
-            fill="#58A6FF">
+            fill="#445063">
             <animate
-                attributeName="r"
-                values="2.5;3;2.5"
-                dur="2.8s"
+                attributeName="fill"
+                values="
+                    #445063;
+                    #445063;
+                    #58A6FF;
+                    #58A6FF;
+                    #445063"
+                keyTimes="
+                    0;
+                    0.05;
+                    0.08;
+                    0.90;
+                    1"
+                dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- ================================================= -->
@@ -218,12 +240,22 @@
             cy="36"
             r="3.8"
             fill="#58A6FF"
-            opacity="0.14">
+            opacity="0">
             <animate
                 attributeName="opacity"
-                values="0.08;0.18;0.08"
-                begin="0.4s"
-                dur="2.8s"
+                values="
+                    0;
+                    0;
+                    0.18;
+                    0.18;
+                    0"
+                keyTimes="
+                    0;
+                    0.24;
+                    0.28;
+                    0.90;
+                    1"
+                dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- Main Node -->
@@ -231,12 +263,22 @@
             cx="90"
             cy="36"
             r="2.5"
-            fill="#58A6FF">
+            fill="#445063">
             <animate
-                attributeName="r"
-                values="2.5;3;2.5"
-                begin="0.4s"
-                dur="2.8s"
+                attributeName="fill"
+                values="
+                    #445063;
+                    #445063;
+                    #58A6FF;
+                    #58A6FF;
+                    #445063"
+                keyTimes="
+                    0;
+                    0.24;
+                    0.28;
+                    0.90;
+                    1"
+                dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- ================================================= -->
@@ -248,12 +290,22 @@
             cy="36"
             r="3.8"
             fill="#58A6FF"
-            opacity="0.14">
+            opacity="0">
             <animate
                 attributeName="opacity"
-                values="0.08;0.18;0.08"
-                begin="0.8s"
-                dur="2.8s"
+                values="
+                    0;
+                    0;
+                    0.18;
+                    0.18;
+                    0"
+                keyTimes="
+                    0;
+                    0.54;
+                    0.58;
+                    0.90;
+                    1"
+                dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- Main Node -->
@@ -261,12 +313,22 @@
             cx="150"
             cy="36"
             r="2.5"
-            fill="#58A6FF">
+            fill="#445063">
             <animate
-                attributeName="r"
-                values="2.5;3;2.5"
-                begin="0.8s"
-                dur="2.8s"
+                attributeName="fill"
+                values="
+                    #445063;
+                    #445063;
+                    #58A6FF;
+                    #58A6FF;
+                    #445063"
+                keyTimes="
+                    0;
+                    0.54;
+                    0.58;
+                    0.90;
+                    1"
+                dur="6s"
                 repeatCount="indefinite"/>
         </circle>
         <!-- ================================================= -->
