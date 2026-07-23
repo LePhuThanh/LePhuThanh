@@ -78,6 +78,22 @@
                 dur="2.2s"
                 repeatCount="indefinite"/>
         </linearGradient>
+        <!-- ENERGY TRAIL -->
+        <linearGradient
+                id="energyGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%">
+                <stop
+                    offset="0%"
+                    stop-color="#3B82F6"
+                    stop-opacity="0"/>
+                <stop
+                    offset="100%"
+                    stop-color="#8FD3FF"
+                    stop-opacity="1"/>
+            </linearGradient>
     </defs>
     <!-- ===================================================== -->
     <!-- CONTAINER                                             -->
@@ -334,6 +350,23 @@
     <!-- PAC-MAN                                               -->
     <!-- ===================================================== -->
     <g id="pacman">
+        <!-- Energy Trail -->
+        <line
+            x1="30"
+            y1="36"
+            x2="54"
+            y2="36"
+            stroke="url(#energyGradient)"
+            stroke-width="2"
+            stroke-linecap="round"
+            opacity="0.75">
+            <animate
+                attributeName="opacity"
+                values="0.35;0.75;0.35"
+                dur="1s"
+                repeatCount="indefinite"/>
+            
+        </line>
         <text
             id="pacman-icon"
             x="28"
