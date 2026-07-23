@@ -142,50 +142,9 @@
     <!-- BUILD PROGRESS                                         -->
     <!-- ===================================================== -->
     <g id="build-progress">
-        <text
-            x="16"
-            y="28"
-            font-family="Segoe UI, Arial, sans-serif"
-            font-size="7"
-            fill="#8B949E"
-            opacity="1">
-            Building.
-            <animate
-                attributeName="opacity"
-                values="1;0;0"
-                keyTimes="0;0.33;1"
-                dur="1.2s"
-                repeatCount="indefinite"/>
-        </text>
-        <text
-            x="16"
-            y="28"
-            font-family="Segoe UI, Arial, sans-serif"
-            font-size="7"
-            fill="#8B949E"
-            opacity="0">
-            Building..
-            <animate
-                attributeName="opacity"
-                values="0;1;0"
-                keyTimes="0;0.33;0.66"
-                dur="1.2s"
-                repeatCount="indefinite"/>
-        </text>
-        <text
-            x="16"
-            y="28"
-            font-family="Segoe UI, Arial, sans-serif"
-            font-size="7"
-            fill="#8B949E"
-            opacity="0">
+        <text x="16" y="28" font-family="Segoe UI, Arial, sans-serif" font-size="7" font-weight="600" fill="#8B949E">
             Building...
-            <animate
-                attributeName="opacity"
-                values="0;0;1;0"
-                keyTimes="0;0.33;0.66;1"
-                dur="1.2s"
-                repeatCount="indefinite"/>
+        <animate attributeName="fill" values="#8B949E;#8B949E;#C9D1D9;#C9D1D9;#8B949E" keyTimes="0;0.05;0.08;0.85;1" dur="6s" repeatCount="indefinite"/>
         </text>
         <rect x="62" y="23" width="100" height="5" rx="2.5" fill="#30363D"/>
     </g>
