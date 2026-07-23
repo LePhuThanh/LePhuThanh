@@ -215,7 +215,7 @@
         <circle
             cx="34"
             cy="36"
-            r="2.5"
+            r="3"
             fill="#445063">
             <animate
                 attributeName="fill"
@@ -269,7 +269,7 @@
         <circle
             cx="90"
             cy="36"
-            r="2.5"
+            r="3"
             fill="#445063">
             <animate
                 attributeName="fill"
@@ -323,7 +323,7 @@
         <circle
             cx="150"
             cy="36"
-            r="2.5"
+            r="3"
             fill="#445063">
             <animate
                 attributeName="fill"
@@ -369,7 +369,7 @@
                 repeatCount="indefinite"/>
         </circle>
         <!-- Main Node -->
-        <circle cx="206" cy="36" r="2.5" fill="#445063">
+        <circle cx="206" cy="36" r="3" fill="#445063">
             <animate
                 attributeName="fill"
                 values="
