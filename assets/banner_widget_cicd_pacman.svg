@@ -139,41 +139,6 @@
         </circle>
     </g>
     <!-- ===================================================== -->
-    <!-- BUILD PROGRESS PERCENTAGE                             -->
-    <!-- ===================================================== -->    
-    <g id="build-progress-percent" font-family="Segoe UI, Arial, sans-serif" font-size="6" font-weight="600" fill="#8B949E" text-anchor="end">
-        <!-- 0% -->
-        <text x="164" y="28" opacity="1">0%
-            <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.08;0.085;1" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="y" values="28;28;27;27" keyTimes="0;0.08;0.085;1" dur="6s" repeatCount="indefinite"/>
-        </text>
-        <!-- 4% -->
-        <text x="164" y="29" opacity="0">4%
-            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.075;0.08;0.28;0.285;1" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="y" values="29;29;28;28;27;27" keyTimes="0;0.075;0.08;0.28;0.285;1" dur="6s" repeatCount="indefinite"/>
-        </text>
-        <!-- 30% -->
-        <text x="164" y="29" opacity="0">30%
-            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.275;0.28;0.58;0.585;1" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="y" values="29;29;28;28;27;27" keyTimes="0;0.275;0.28;0.58;0.585;1" dur="6s" repeatCount="indefinite"/>
-        </text>
-        <!-- 60% -->
-        <text x="164" y="29" opacity="0">60%
-            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.575;0.58;0.85;0.855;1" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="y" values="29;29;28;28;27;27" keyTimes="0;0.575;0.58;0.85;0.855;1" dur="6s" repeatCount="indefinite"/>
-        </text>
-        <!-- 96% -->
-        <text x="164" y="29" opacity="0">96%
-            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.845;0.85;0.99;0.995;1" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="y" values="29;29;28;28;27;27" keyTimes="0;0.845;0.85;0.99;0.995;1" dur="6s" repeatCount="indefinite"/>
-        </text>
-        <!-- 100% -->
-        <text x="164" y="29" opacity="0" fill="#3FB950">100%
-            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.985;0.99;0.992;0.997;1" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="y" values="29;29;28;28;27;27" keyTimes="0;0.985;0.99;0.992;0.997;1" dur="6s" repeatCount="indefinite"/>
-        </text>
-    </g>
-    <!-- ===================================================== -->
     <!-- BUILD PROGRESS                                         -->
     <!-- ===================================================== -->
     <g id="build-progress">
@@ -182,7 +147,7 @@
             <!-- Fill Animation -->
             <animate attributeName="fill" values="#8B949E;#8B949E;#C9D1D9;#C9D1D9;#8B949E" keyTimes="0;0.05;0.08;0.85;1" dur="6s" repeatCount="indefinite"/>
             <!-- Hide when SUCCESS appears -->
-            <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.08;0.58;0.99;0.995;1" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.08;0.58;0.94;0.96;1" dur="6s" repeatCount="indefinite"/>
         </text>
         <!-- Background -->
         <rect x="62" y="23" width="100" height="5" rx="2.5" ry="2.5" fill="#30363D" stroke="#484F58" stroke-width="0.5"/>
@@ -213,12 +178,47 @@
         <rect x="62" y="23" width="100" height="2" rx="2" fill="#FFFFFF" opacity="0.07"/>
     </g>
     <!-- ===================================================== -->
+    <!-- BUILD PROGRESS PERCENTAGE                             -->
+    <!-- ===================================================== -->    
+    <g id="build-progress-percent" font-family="Segoe UI, Arial, sans-serif" font-size="6" font-weight="600" fill="#8B949E" text-anchor="end">
+        <!-- 0% -->
+        <text x="164" y="28" opacity="1">0%
+            <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.08;0.085;1" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="28;28;27;27" keyTimes="0;0.08;0.085;1" dur="6s" repeatCount="indefinite"/>
+        </text>
+        <!-- 4% -->
+        <text x="164" y="29" opacity="0">4%
+            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.075;0.08;0.28;0.285;1" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="29;29;28;28;27;27" keyTimes="0;0.075;0.08;0.28;0.285;1" dur="6s" repeatCount="indefinite"/>
+        </text>
+        <!-- 30% -->
+        <text x="164" y="29" opacity="0">30%
+            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.275;0.28;0.58;0.585;1" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="29;29;28;28;27;27" keyTimes="0;0.275;0.28;0.58;0.585;1" dur="6s" repeatCount="indefinite"/>
+        </text>
+        <!-- 60% -->
+        <text x="164" y="29" opacity="0">60%
+            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.575;0.58;0.85;0.855;1" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="29;29;28;28;27;27" keyTimes="0;0.575;0.58;0.85;0.855;1" dur="6s" repeatCount="indefinite"/>
+        </text>
+        <!-- 96% -->
+        <text x="164" y="29" opacity="0">96%
+            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.845;0.85;0.99;0.995;1" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="29;29;28;28;27;27" keyTimes="0;0.845;0.85;0.99;0.995;1" dur="6s" repeatCount="indefinite"/>
+        </text>
+        <!-- 100% -->
+        <text x="164" y="29" opacity="0" fill="#3FB950">100%
+            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.985;0.99;0.995;0.999;1" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="29;29;28;28;27;27" keyTimes="0;0.985;0.99;0.995;0.999;1" dur="6s" repeatCount="indefinite"/>
+        </text>
+    </g>
+    <!-- ===================================================== -->
     <!-- BUILD SUCCESS                                          -->
     <!-- ===================================================== -->
     <g id="build-success">
-        <text x="96" y="28" font-family="Segoe UI, Arial, sans-serif" font-size="7" font-weight="600" fill="#3FB950" text-anchor="middle" opacity="0">
+        <text x="112" y="28" font-family="Segoe UI, Arial, sans-serif" font-size="7" font-weight="600" fill="#3FB950" text-anchor="middle" opacity="0">
             SUCCESS
-            <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.99;0.992;0.997;1" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.985;0.99;0.999;1" dur="6s" repeatCount="indefinite"/>
         </text>
     </g>
     <!-- ===================================================== -->
