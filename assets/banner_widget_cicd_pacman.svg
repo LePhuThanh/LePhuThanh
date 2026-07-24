@@ -528,11 +528,11 @@
                     dur="6s" repeatCount="indefinite"/>
             </text>
             <!-- Animate all element in group -->
-            <animateTransform attributeName="transform" type="translate" additive="replace" dur="6s" repeatCount="indefinite" 
-                values="0 0;0 0;56 0;56 0;116 0;116 0;172 0;172 0;175 0;175 0;0 0" 
-                keyTimes="0;0.08;0.24;0.28;0.54;0.58;0.82;0.85;0.985;0.995;1" 
-                calcMode="spline" 
-                keySplines="0.42 0 0.58 1;0 0 1 1;0.42 0 0.58 1;0 0 1 1;0.42 0 0.58 1;0 0 1 1;0.42 0 0.58 1;0 0 1 1;0 0 1 1"/>
+            <animateTransform attributeName="transform" type="translate" additive="replace" 
+                values="0 0;0 0;56 0;116 0;172 0;175 0;175 0;0 0" 
+                keyTimes="0;0.08;0.28;0.58;0.85;0.94;0.985;1" 
+                calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0 0 1 1;0 0 1 1" 
+                dur="6s" repeatCount="indefinite"/>
         </g>
     </g>
     <!-- ===================================================== -->
