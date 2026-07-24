@@ -410,6 +410,32 @@
     <!-- ===================================================== -->
     <!-- PAC-MAN                                               -->
     <!-- ===================================================== -->
+    <g id="energy-flow">
+      <line x1="34" y1="58" x2="207" y2="58"
+            stroke="#58A6FF" stroke-width="2.5" stroke-linecap="round"
+            opacity="0.35"
+            transform="scale(0,1)" transform-origin="34 58">
+        <animateTransform
+          attributeName="transform"
+          type="scale"
+          values="0 1;0.02 1;0.33 1;0.67 1;0.98 1;1 1;1 1;0 1"
+          keyTimes="0;0.08;0.28;0.58;0.85;0.94;0.985;1"
+          keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0 0 1 1;0 0 1 1"
+          calcMode="spline"
+          additive="replace"
+          dur="6s"
+          repeatCount="indefinite"/>
+        <animate
+          attributeName="opacity"
+          values="0;0;0.25;0.35;0.35;0;0"
+          keyTimes="0;0.05;0.08;0.85;0.985;0.995;1"
+          dur="6s"
+          repeatCount="indefinite"/>
+      </line>
+    </g>
+    <!-- ===================================================== -->
+    <!-- PAC-MAN                                               -->
+    <!-- ===================================================== -->
     <g id="pacman">
         <g id="pacman-group">
             <!-- Energy Trail -->
