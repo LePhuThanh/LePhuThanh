@@ -130,60 +130,6 @@
             <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.85;0.94;0.985;0.999;1" dur="6s" repeatCount="indefinite"/>
         </line>
         <!-- ================================================= -->
-        <!-- ELECTRIC NODE PULSE (Forked Lightning)            -->
-        <!-- ================================================= -->
-        <g id="node-pulse" stroke="#8FD3FF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
-          <!-- Commit -->
-          <g opacity="0" stroke="#FFFFFF">
-            <path d="M34 58 L34 50 L31 47 L36 43 L33 40 L34 36"/>
-            <path d="M33 43 L29 40"/>
-            <path d="M35 45 L39 42"/>
-            <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.08;0.10" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="stroke" values="#FFFFFF;#FFFFFF;#EAFBFF;#BFF7FF;#79C0FF;#58A6FF;#58A6FF" keyTimes="0;0.075;0.080;0.086;0.092;0.100;1" dur="6s" repeatCount="indefinite"/>
-          </g>
-          <!-- CI -->
-          <g opacity="0" stroke="#FFFFFF">
-            <path d="M90 58 L90 50 L87 47 L92 43 L89 40 L90 36"/>
-            <path d="M89 43 L85 40"/>
-            <path d="M91 45 L95 42"/>
-            <animate attributeName="opacity" values="0;1;0" keyTimes="0.20;0.28;0.30" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="stroke" values="#FFFFFF;#FFFFFF;#EAFBFF;#BFF7FF;#79C0FF;#58A6FF;#58A6FF" keyTimes="0;0.275;0.280;0.286;0.292;0.300;1" dur="6s" repeatCount="indefinite"/>
-          </g>
-          <!-- CD -->
-          <g opacity="0" stroke="#FFFFFF">
-            <path d="M150 58 L150 50 L147 47 L152 43 L149 40 L150 36"/>
-            <path d="M149 43 L145 40"/>
-            <path d="M151 45 L155 42"/>
-            <animate attributeName="opacity" values="0;1;0" keyTimes="0.50;0.58;0.60" dur="6s" repeatCount="indefinite"/>
-              <animate attributeName="stroke" values="#FFFFFF;#FFFFFF;#EAFBFF;#BFF7FF;#79C0FF;#58A6FF;#58A6FF" keyTimes="0;0.575;0.580;0.586;0.592;0.600;1" dur="6s" repeatCount="indefinite"/>
-          </g>
-          <!-- Deploy -->
-          <g opacity="0" stroke="#FFFFFF">
-            <path d="M206 58 L206 50 L203 47 L208 43 L205 40 L206 36"/>
-            <path d="M205 43 L201 40"/>
-            <path d="M207 45 L211 42"/>
-            <animate attributeName="opacity" values="0;1;0" keyTimes="0.77;0.85;0.87" dur="6s" repeatCount="indefinite"/>
-              <animate
-                attributeName="stroke"
-                values="#FFFFFF;
-                        #FFFFFF;
-                        #EFFFF2;
-                        #A7F3C1;
-                        #6EE7A8;
-                        #3FB950;
-                        #3FB950"
-                keyTimes="0;
-                          0.845;
-                          0.850;
-                          0.856;
-                          0.862;
-                          0.870;
-                          1"
-                dur="6s"
-                repeatCount="indefinite"/>
-          </g>
-        </g>
-        <!-- ================================================= -->
         <!-- Commit Node                                       -->
         <!-- ================================================= -->
         <!-- Glow -->
@@ -320,11 +266,16 @@
                 font-size="11" font-weight="600" fill="#FFC83D" dominant-baseline="middle" transform="translate(0 0)">ᗧ
                 <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.05;0.08;0.985;0.995;1" dur="6s" repeatCount="indefinite"/>
             </text>
-            <!-- Electric Pulse -->
-            <path d="M0,-4 L2,-1 L0,-1 L3,4 L1,1 L2,1 Z" fill="#FFFFFF" opacity="0" transform="translate(18 58) scale(0.8)">
-              <animate attributeName="opacity" values="0;1;0;1;0;1;0;1;0" keyTimes="0;0.08;0.10;0.28;0.30;0.58;0.60;0.85;1" dur="6s" repeatCount="indefinite"/>
-              <animateTransform attributeName="transform" additive="sum" type="rotate" values="-10;8;-6;10;-8;8;-6;0" keyTimes="0;0.08;0.10;0.28;0.30;0.58;0.85;1" dur="6s" repeatCount="indefinite"/>
-            </path>
+            <!-- Electric Forked Lightning -->
+            <g opacity="0" transform="translate(18 58) scale(.8)">
+              <!-- Main Bolt -->
+              <path d="M0-4L2-1H0L3 4L1 1H2" fill="#FFF"/>
+              <!-- Left Branch -->
+              <path d="M1-1L-2-3L0-1" fill="#BFF7FF"/>
+              <!-- Right Branch -->
+              <path d="M2 1L5 0L3 2" fill="#79C0FF"/>
+              <animate attributeName="opacity" values="0;1;0;1;0;1;0;1;0" keyTimes="0;.08;.1;.28;.3;.58;.6;.85;1" dur="6s" repeatCount="indefinite"/>
+            </g>
             <!-- Left Electric Spark -->
             <!-- <path d="M0,-3 L2,-1 L1,-1 L3,3 L0,1 L1,1 Z" fill="#7EE7FF" opacity="0" transform="translate(24 56) scale(0.55)">
               <animate attributeName="opacity" values="0;1;0;0;1;0;0" keyTimes="0;0.15;0.25;0.5;0.65;0.75;1" dur="0.22s" repeatCount="indefinite"/>
