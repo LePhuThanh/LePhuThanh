@@ -267,13 +267,19 @@
                 <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.05;0.08;0.985;0.995;1" dur="6s" repeatCount="indefinite"/>
             </text>
             <!-- Electric Forked Lightning -->
-            <g opacity="0" transform="translate(14 57) scale(1.45)">
+            <g opacity="0" transform="translate(13 57) scale(1.55)">
+              <!-- Electric Glow -->
+              <path d="M-2-9L6-2L2-2L8 9L2 4L7 4Z" fill="#58A6FF" opacity="0.18">
+                  <animate attributeName="opacity" values="0;.28;.12;.28;.12;.28;0" keyTimes="0;.08;.1;.28;.58;.85;1" dur="6s" repeatCount="indefinite"/>
+              </path>
               <!-- Main Bolt -->
-              <path d="M0-7L4-2H1L6 7L2 2H5Z" fill="#FFF"/>
+              <path d="M0-7L4-2L1-2L6 7L2 2L5 2Z" fill="#FFF"/>
+              <path d="M1 -2 L-5 -5 L-1 -1 Z" fill="#58A6FF" opacity=".18"/>
               <!-- Left Branch -->
-              <path d="M1-2L-5-5-1-1Z" fill="#BFF7FF"/>    
+              <path d="M1 -2 L-5 -5 L-1 -1 Z" fill="#BFF7FF"/>   
+              <path d="M4 2 L8 0 L5 4 Z" fill="#58A6FF" opacity=".18"/>
               <!-- Right Branch -->
-              <path d="M4 2L8 0 5 4Z" fill="#79C0FF"/>
+              <path d="M4 2 L8 0 L5 4 Z" fill="#79C0FF"/>
               <animate attributeName="opacity" values="0;1;0;1;0;1;0;1;0" keyTimes="0;.08;.1;.28;.3;.58;.6;.85;1" dur="6s" repeatCount="indefinite"/>
             </g>
             <!-- Left Electric Spark -->
