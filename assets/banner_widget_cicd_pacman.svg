@@ -267,13 +267,13 @@
                 <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.05;0.08;0.985;0.995;1" dur="6s" repeatCount="indefinite"/>
             </text>
             <!-- Electric Forked Lightning -->
-            <g opacity="0" transform="translate(18 58) scale(.8)">
+            <g opacity="0" transform="translate(14 57) scale(1.45)">
               <!-- Main Bolt -->
-              <path d="M0-4L2-1H0L3 4L1 1H2" fill="#FFF"/>
+              <path d="M0-7L4-2H1L6 7L2 2H5Z" fill="#FFF"/>
               <!-- Left Branch -->
-              <path d="M1-1L-2-3L0-1" fill="#BFF7FF"/>
+              <path d="M1-2L-5-5-1-1Z" fill="#BFF7FF"/>    
               <!-- Right Branch -->
-              <path d="M2 1L5 0L3 2" fill="#79C0FF"/>
+              <path d="M4 2L8 0 5 4Z" fill="#79C0FF"/>
               <animate attributeName="opacity" values="0;1;0;1;0;1;0;1;0" keyTimes="0;.08;.1;.28;.3;.58;.6;.85;1" dur="6s" repeatCount="indefinite"/>
             </g>
             <!-- Left Electric Spark -->
