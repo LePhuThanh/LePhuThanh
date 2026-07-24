@@ -548,7 +548,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.078;0.090;0.104;1"
+                keyTimes="0;0.062;0.074;0.080;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -558,14 +558,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.078;0.090;0.104;1"
+                keyTimes="0;0.062;0.074;0.080;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.090;0.104;1"
+                keyTimes="0;0.074;0.080;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -574,7 +574,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.078;0.100;0.104;1"/>
+                keyTimes="0;0.062;0.078;0.080;1"/>
         </circle>
         <!-- ========================= DOT 1 ============================ -->
         <!-- Glow -->
@@ -582,7 +582,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.120;0.132;0.146;1"
+                keyTimes="0;0.126;0.138;0.144;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -591,19 +591,19 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.120;0.132;0.146;1"
+                keyTimes="0;0.126;0.138;0.144;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.132;0.146;1"
+                keyTimes="0;0.138;0.144;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <animate
                 attributeName="opacity"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.120;0.142;0.146;1"
+                keyTimes="0;0.126;0.142;0.144;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -613,7 +613,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.164;0.176;0.190;1"
+                keyTimes="0;0.152;0.164;0.170;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -623,14 +623,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.164;0.176;0.190;1"
+                keyTimes="0;0.152;0.164;0.170;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.176;0.190;1"
+                keyTimes="0;0.164;0.170;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -639,7 +639,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.164;0.186;0.190;1"/>
+                keyTimes="0;0.152;0.168;0.170;1"/>
         </circle>
         <!-- ========================= DOT 3 ============================ -->
         <!-- Glow -->
@@ -647,7 +647,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.211;0.223;0.237;1"
+                keyTimes="0;0.177;0.189;0.195;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -657,14 +657,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6; 1.6"
-                keyTimes="0;0.211;0.223;0.237;1"
+                keyTimes="0;0.177;0.189;0.195;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.223;0.237;1"
+                keyTimes="0;0.189;0.195;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -673,7 +673,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.211;0.233;0.237;1"/>
+                keyTimes="0;0.177;0.193;0.195;1"/>
         </circle>
         <!-- ========================= DOT 4 ============================ -->
         <!-- Glow -->
@@ -681,7 +681,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.248;0.260;0.274;1"
+                keyTimes="0;0.203;0.215;0.221;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -691,14 +691,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.248;0.260;0.274;1"
+                keyTimes="0;0.203;0.215;0.221;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.260;0.274;1"
+                keyTimes="0;0.215;0.221;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -707,7 +707,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.248;0.270;0.274;1"/>
+                keyTimes="0;0.203;0.219;0.221;1"/>
         </circle>
         <!-- ========================= DOT 5 ============================ -->
         <!-- Glow -->
@@ -715,7 +715,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.294;0.306;0.320;1"
+                keyTimes="0;0.301;0.313;0.319;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -725,14 +725,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.294;0.306;0.320;1"
+                keyTimes="0;0.301;0.313;0.319;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.306;0.320;1"
+                keyTimes="0;0.313;0.319;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -741,7 +741,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.294;0.316;0.320;1"/>
+                keyTimes="0;0.301;0.317;0.319;1"/>
         </circle>
         <!-- ========================= DOT 6 ============================ -->
         <!-- Glow -->
@@ -749,7 +749,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.348;0.360;0.374;1"
+                keyTimes="0;0.359;0.371;0.377;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -759,14 +759,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.348;0.360;0.374;1"
+                keyTimes="0;0.359;0.371;0.377;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.360;0.374;1"
+                keyTimes="0;0.371;0.377;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -775,7 +775,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.348;0.370;0.374;1"/>
+                keyTimes="0;0.359;0.375;0.377;1"/>
         </circle>
         <!-- ========================= DOT 7 ============================ -->
         <!-- Glow -->
@@ -783,7 +783,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.416;0.428;0.442;1"
+                keyTimes="0;0.397;0.409;0.415;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -793,14 +793,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.416;0.428;0.442;1"
+                keyTimes="0;0.397;0.409;0.415;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.428;0.442;1"
+                keyTimes="0;0.409;0.415;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -809,7 +809,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.416;0.438;0.442;1"/>
+                keyTimes="0;0.397;0.413;0.415;1"/>
         </circle>
         <!-- ========================= DOT 8 ============================ -->
         <!-- Glow -->
@@ -817,7 +817,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.477;0.489;0.503;1"
+                keyTimes="0;0.430;0.442;0.448;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -827,14 +827,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.477;0.489;0.503;1"
+                keyTimes="0;0.430;0.442;0.448;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.489;0.503;1"
+                keyTimes="0;0.442;0.448;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -843,7 +843,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.477;0.499;0.503;1"/>
+                keyTimes="0;0.430;0.446;0.448;1"/>
         </circle>
         <!-- ========================= DOT 9 ============================ -->
         <!-- Glow -->
@@ -851,7 +851,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.535;0.547;0.561;1"
+                keyTimes="0;0.469;0.481;0.487;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -861,14 +861,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.535;0.547;0.561;1"
+                keyTimes="0;0.469;0.481;0.487;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.547;0.561;1"
+                keyTimes="0;0.481;0.487;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -877,7 +877,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.535;0.557;0.561;1"/>
+                keyTimes="0;0.469;0.485;0.487;1"/>
         </circle>
         <!-- ========================= DOT 10 ============================ -->
         <!-- Glow -->
@@ -885,7 +885,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.580;0.592;0.606;1"
+                keyTimes="0;0.534;0.546;0.552;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -895,14 +895,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.580;0.592;0.606;1"
+                keyTimes="0;0.534;0.546;0.552;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.592;0.606;1"
+                keyTimes="0;0.546;0.552;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -911,7 +911,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.580;0.602;0.606;1"/>
+                keyTimes="0;0.534;0.550;0.552;1"/>
         </circle>
         <!-- ========================= DOT 11 ============================ -->
         <!-- Glow -->
@@ -919,7 +919,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.636;0.648;0.662;1"
+                keyTimes="0;0.645;0.657;0.663;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -929,14 +929,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.636;0.648;0.662;1"
+                keyTimes="0;0.645;0.657;0.663;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.648;0.662;1"
+                keyTimes="0;0.657;0.663;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -945,7 +945,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.636;0.658;0.662;1"/>
+                keyTimes="0;0.645;0.661;0.663;1"/>
         </circle>
         <!-- ========================= DOT 12 ============================ -->
         <!-- Glow -->
@@ -953,7 +953,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.695;0.707;0.721;1"
+                keyTimes="0;0.680;0.692;0.698;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -963,14 +963,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.695;0.707;0.721;1"
+                keyTimes="0;0.680;0.692;0.698;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.707;0.721;1"
+                keyTimes="0;0.692;0.698;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -979,7 +979,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.695;0.717;0.721;1"/>
+                keyTimes="0;0.680;0.696;0.698;1"/>
         </circle>
         <!-- ========================= DOT 13 ============================ -->
         <!-- Glow -->
@@ -987,7 +987,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.759;0.771;0.785;1"
+                keyTimes="0;0.714;0.726;0.732;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -997,14 +997,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.759;0.771;0.785;1"
+                keyTimes="0;0.714;0.726;0.732;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.771;0.785;1"
+                keyTimes="0;0.726;0.732;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -1013,7 +1013,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.759;0.781;0.785;1"/>
+                keyTimes="0;0.714;0.730;0.732;1"/>
         </circle>
         <!-- ========================= DOT 14 ============================ -->
         <!-- Glow -->
@@ -1021,7 +1021,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.810;0.822;0.836;1"
+                keyTimes="0;0.749;0.761;0.767;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -1031,14 +1031,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.810;0.822;0.836;1"
+                keyTimes="0;0.749;0.761;0.767;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.822;0.836;1"
+                keyTimes="0;0.761;0.767;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -1047,7 +1047,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.810;0.832;0.836;1"/>
+                keyTimes="0;0.749;0.765;0.767;1"/>
         </circle>
         <!-- ========================= DOT 15 ============================ -->
         <!-- Glow -->
@@ -1055,7 +1055,7 @@
             <animate
                 attributeName="opacity"
                 values="0;0;0.30;0;0"
-                keyTimes="0;0.920;0.932;0.946;1"
+                keyTimes="0;0.868;0.880;0.886;1"
                 dur="6s"
                 repeatCount="indefinite"/>
         </circle>
@@ -1065,14 +1065,14 @@
             <animate
                 attributeName="r"
                 values="1.6;1.6;2.0;1.6;1.6"
-                keyTimes="0;0.920;0.932;0.946;1"
+                keyTimes="0;0.868;0.880;0.886;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Flash -->
             <animate
                 attributeName="fill"
                 values="#C9D1D9;#FFFFFF;#C9D1D9;#C9D1D9"
-                keyTimes="0;0.932;0.946;1"
+                keyTimes="0;0.880;0.886;1"
                 dur="6s"
                 repeatCount="indefinite"/>
             <!-- Eaten by Pac-Man -->
@@ -1081,7 +1081,7 @@
                 dur="6s"
                 repeatCount="indefinite"
                 values="1;1;0.35;0;0"
-                keyTimes="0;0.920;0.942;0.946;1"/>
+                keyTimes="0;0.868;0.884;0.886;1"/>
         </circle>
     </g>
     <!-- ===================================================== -->
