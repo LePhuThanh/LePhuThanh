@@ -309,12 +309,12 @@
             </line>
             <!-- Ghost Pac-Man -->
             <text id="pacman-ghost" x="25" y="58" font-family="'Segoe UI Symbol','Segoe UI','Arial Unicode MS',sans-serif" font-size="11"
-                font-weight="600" fill="#FFD977" dominant-baseline="middle" opacity="0" transform="translate(0 0)">ᗧ
+                font-weight="600" fill="#B7F7B7" dominant-baseline="middle" opacity="0" transform="translate(0 0)">ᗧ
                 <animate attributeName="opacity" values="0;0;0.20;0.20;0;0" keyTimes="0;0.05;0.08;0.985;0.995;1" dur="6s" repeatCount="indefinite"/>
             </text>
             <!-- Main Pac-Man -->
             <text id="pacman-icon" x="28" y="58" font-family="'Segoe UI Symbol','Segoe UI','Arial Unicode MS',sans-serif"
-                font-size="11" font-weight="600" fill="#FFB627" dominant-baseline="middle" transform="translate(0 0)">ᗧ
+                font-size="11" font-weight="600" fill="#7EE787" dominant-baseline="middle" transform="translate(0 0)">ᗧ
                 <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.05;0.08;0.985;0.995;1" dur="6s" repeatCount="indefinite"/>
             </text>
             <!-- Electric Forked Lightning -->
