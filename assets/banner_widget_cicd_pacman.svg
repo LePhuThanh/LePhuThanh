@@ -258,26 +258,26 @@
             </line>
             <!-- Ghost Pac-Man -->
             <text id="pacman-ghost" x="25" y="58" font-family="'Segoe UI Symbol','Segoe UI','Arial Unicode MS',sans-serif" font-size="11"
-                font-weight="600" fill="#FFD65A" dominant-baseline="middle" opacity="0" transform="translate(0 0)">ᗧ
+                font-weight="600" fill="#A5D6FF" dominant-baseline="middle" opacity="0" transform="translate(0 0)">ᗧ
                 <animate attributeName="opacity" values="0;0;0.14;0.14;0;0" keyTimes="0;0.05;0.08;0.985;0.995;1" dur="6s" repeatCount="indefinite"/>
             </text>
             <!-- Main Pac-Man -->
             <text id="pacman-icon" x="28" y="58" font-family="'Segoe UI Symbol','Segoe UI','Arial Unicode MS',sans-serif"
-                font-size="11" font-weight="600" fill="#FFC83D" dominant-baseline="middle" transform="translate(0 0)">ᗧ
+                font-size="11" font-weight="600" fill="#7EE7FF" dominant-baseline="middle" transform="translate(0 0)">ᗧ
                 <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.05;0.08;0.985;0.995;1" dur="6s" repeatCount="indefinite"/>
             </text>
             <!-- Electric Forked Lightning -->
-            <g opacity="0" transform="translate(13 57) scale(1.55)">
+            <g opacity="0" transform="translate(15 57.5) scale(1.28)">
               <!-- Electric Glow -->
-              <path d="M-2-9L6-2L2-2L8 9L2 4L7 4Z" fill="#58A6FF" opacity="0.18">
+              <path d="M-2-9L6-2L2-2L8 9L2 4L7 4Z" fill="#58A6FF" opacity="0.14">
                   <animate attributeName="opacity" values="0;.28;.12;.28;.12;.28;0" keyTimes="0;.08;.1;.28;.58;.85;1" dur="6s" repeatCount="indefinite"/>
               </path>
               <!-- Main Bolt -->
               <path d="M0-7L4-2L1-2L6 7L2 2L5 2Z" fill="#FFF"/>
-              <path d="M1 -2 L-5 -5 L-1 -1 Z" fill="#58A6FF" opacity=".18"/>
+              <path d="M1 -2 L-5 -5 L-1 -1 Z" fill="#58A6FF" opacity=".14"/>
               <!-- Left Branch -->
               <path d="M1 -2 L-5 -5 L-1 -1 Z" fill="#BFF7FF"/>   
-              <path d="M4 2 L8 0 L5 4 Z" fill="#58A6FF" opacity=".18"/>
+              <path d="M4 2 L8 0 L5 4 Z" fill="#58A6FF" opacity=".14"/>
               <!-- Right Branch -->
               <path d="M4 2 L8 0 L5 4 Z" fill="#79C0FF"/>
               <animate attributeName="opacity" values="0;1;0;1;0;1;0;1;0" keyTimes="0;.08;.1;.28;.3;.58;.6;.85;1" dur="6s" repeatCount="indefinite"/>
