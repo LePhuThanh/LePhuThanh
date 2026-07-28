@@ -299,11 +299,11 @@
         <text x="138" y="76">API</text>
         <text x="275" y="76">SPRING</text>
         <text x="390" y="116">SERVICE</text>
-        <text x="580" y="58">BUS</text>
+        <text x="560" y="58">BUS</text>
         <text x="733" y="68">KAFKA</text>
-        <text x="800" y="228">REDIS</text>
+        <text x="790" y="235">REDIS</text>
         <text x="885" y="68">DATABASE</text>
-        <text x="920" y="213">K8S</text>
+        <text x="900" y="225">K8S</text>
     </g>
     <!-- NETWORK AMBIENT LINES                                -->
     <g opacity="0.15">
