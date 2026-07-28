@@ -301,7 +301,7 @@
         <text x="390" y="116">SERVICE</text>
         <text x="560" y="58">BUS</text>
         <text x="733" y="68">KAFKA</text>
-        <text x="785" y="235">REDIS</text>
+        <text x="780" y="235">REDIS</text>
         <text x="885" y="68">DATABASE</text>
         <text x="910" y="225">K8S</text>
     </g>
