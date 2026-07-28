@@ -135,8 +135,8 @@
             <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
         </path>
         <!-- flow4 -->
-        <path id="flow4" d="M580 80 L780 200" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
-        <path d="M580 80 L760 190" fill="none" stroke="#58A6FF" stroke-width="2" opacity=".25" stroke-dasharray="20 120">
+        <path id="flow4" d="M580 80 L800 205" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
+        <path d="M580 80 L800 205" fill="none" stroke="#58A6FF" stroke-width="2" opacity=".25" stroke-dasharray="20 120">
             <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
         </path>
         <!-- flow5 -->
@@ -145,8 +145,8 @@
             <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
         </path>
         <!-- flow6 -->
-        <path id="flow6" d="M760 190 L920 190" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
-        <path d="M760 190 L920 190" fill="none" stroke="#58A6FF" stroke-width="2" opacity=".25" stroke-dasharray="20 120">
+        <path id="flow6" d="M800 205 L920 190" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
+        <path d="M800 205 L920 190" fill="none" stroke="#58A6FF" stroke-width="2" opacity=".25" stroke-dasharray="20 120">
             <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
         </path>
         <!--================ API GATEWAY ================-->
@@ -220,12 +220,12 @@
             <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
         </circle>
-        <circle cx="780" cy="200" r="7" fill="#DC2626" filter="url(#blueGlow)">
+        <circle cx="800" cy="205" r="7" fill="#DC2626" filter="url(#blueGlow)">
             <animate attributeName="r" values="7;8.6;7" dur="3s" begin="2.3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".65;1;.65" dur="3s" begin="2.3s" repeatCount="indefinite"/>
         </circle>
         <!-- Redis Pulse Ring -->
-        <circle cx="780" cy="200" r="8" fill="none" stroke="#DC2626" stroke-width="2" opacity="0" filter="url(#softGlow)">
+        <circle cx="800" cy="205" r="8" fill="none" stroke="#DC2626" stroke-width="2" opacity="0" filter="url(#softGlow)">
             <animate attributeName="r" values="8;18" dur="3s" begin="2.3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".75;0" dur="3s" begin="2.3s" repeatCount="indefinite"/>
         </circle>
@@ -264,7 +264,7 @@
     <!-- Full flow : API -> DATABASE -->
     <path id="flowFullTop" d="M170 95 L310 95 L420 140 L580 80 L760 90 L920 90" fill="none" stroke="none"/> <!--This path is not visible; it's only for packet execution.-->
     <!-- Full flow : BUS -> REDIS -> K8S -->
-    <path id="flowFullBottom" d="M580 80 L760 190 L920 190" fill="none" stroke="none"/>
+    <path id="flowFullBottom" d="M580 80 L800 205 L920 190" fill="none" stroke="none"/>
     <!-- API -> SPRING -> SERVICE -> BUS -> KAFKA -> DATABASE -->
     <g>
         <!-- Packet 1 -->
