@@ -350,45 +350,45 @@
             Cloud Native
         </text>
     </g>
-    <!-- ===================================================== -->
-    <!-- STATUS BADGES                                         -->
-    <!-- ===================================================== -->
-    <g id="statusBadges" font-family="Inter, Segoe UI" font-size="12">
-        <!-- JAVA -->
-        <g>
-            <rect x="950" y="114" width="118" height="30" rx="15" fill="#58A6FF" stroke="#4A5D78" stroke-width="1"/>
-            <line x1="960" y1="118" x2="1058" y2="118" stroke="#FFFFFF" stroke-opacity=".08"/>
-            <circle cx="968" cy="129" r="4" fill="#58A6FF" filter="url(#softGlow)">
-                <animate attributeName="opacity" values=".5;1;.5" dur="2s" repeatCount="indefinite"/>
+    <!--=====================================================-->
+    <!--STATUS BADGES-->
+    <!--=====================================================-->
+    <g id="statusBadges" font-family="Inter,Segoe UI" font-size="12">
+    <!--JAVA-->
+    <g>
+    <rect x="950" y="114" width="118" height="28" rx="14" fill="#1C2330" stroke="#39485A" stroke-width="1"/>
+    <rect x="950" y="114" width="4" height="28" rx="4" fill="#58A6FF"/>
+    <circle cx="966" cy="128" r="3" fill="#58A6FF" filter="url(#softGlow)">
+    <animate attributeName="opacity" values=".4;1;.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="976" y="132" fill="#EAF2FF" font-weight="600" letter-spacing=".3">JAVA 21</text>
+    </g>
+        <!--SPRING-->
+        <g transform="translate(0 34)">
+            <rect x="950" y="114" width="118" height="28" rx="14" fill="#1C2330" stroke="#39485A"/>
+            <rect x="950" y="114" width="4" height="28" rx="4" fill="#6DB33F"/>
+            <circle cx="966" cy="128" r="3" fill="#6DB33F" filter="url(#softGlow)">
+                <animate attributeName="opacity" values=".4;1;.4" dur="2s" begin=".4s" repeatCount="indefinite"/>
             </circle>
-            <text x="980" y="133" fill="#EDF4FF" font-weight="700">JAVA 21</text>
+            <text x="976" y="132" fill="#EAF2FF" font-weight="600">SPRING</text>
         </g>
-        <!-- SPRING -->
-        <g>
-            <rect x="950" y="150" width="118" height="30" rx="15" fill="#6DB33F" stroke="#4A5D78"/>
-            <line x1="960" y1="154" x2="1058" y2="154" stroke="#FFFFFF" stroke-opacity=".08"/>
-            <circle cx="968" cy="165" r="4" fill="#6DB33F" filter="url(#softGlow)">
-                <animate attributeName="opacity" values=".5;1;.5" dur="2s" begin=".4s" repeatCount="indefinite"/>
+        <!--CLOUD-->
+        <g transform="translate(0 68)">
+            <rect x="950" y="114" width="118" height="28" rx="14" fill="#1C2330" stroke="#39485A"/>
+            <rect x="950" y="114" width="4" height="28" rx="4" fill="#38BDF8"/>
+            <circle cx="966" cy="128" r="3" fill="#38BDF8" filter="url(#softGlow)">
+                <animate attributeName="opacity" values=".4;1;.4" dur="2s" begin=".8s" repeatCount="indefinite"/>
             </circle>
-            <text x="980" y="169" fill="#EDF4FF" font-weight="700">SPRING</text>
+            <text x="976" y="132" fill="#EAF2FF" font-weight="600">CLOUD</text>
         </g>
-        <!-- CLOUD -->
-        <g>
-            <rect x="950" y="186" width="118" height="30" rx="15" fill="#38BDF8" stroke="#4A5D78"/>
-            <line x1="960" y1="190" x2="1058" y2="190" stroke="#FFFFFF" stroke-opacity=".08"/>
-            <circle cx="968" cy="201" r="4" fill="#38BDF8" filter="url(#softGlow)">
-                <animate attributeName="opacity" values=".5;1;.5" dur="2s" begin=".8s" repeatCount="indefinite"/>
+        <!--KAFKA-->
+        <g transform="translate(0 102)">
+            <rect x="950" y="114" width="118" height="28" rx="14" fill="#1C2330" stroke="#39485A"/>
+            <rect x="950" y="114" width="4" height="28" rx="4" fill="#ED8B00"/>
+            <circle cx="966" cy="128" r="3" fill="#ED8B00" filter="url(#softGlow)">
+                <animate attributeName="opacity" values=".4;1;.4" dur="2s" begin="1.2s" repeatCount="indefinite"/>
             </circle>
-            <text x="980" y="205" fill="#EDF4FF" font-weight="700">CLOUD</text>
-        </g>
-        <!-- KAFKA -->
-        <g>
-            <rect x="950" y="222" width="118" height="30" rx="15" fill="#ED8B00" stroke="#4A5D78"/>
-            <line x1="960" y1="226" x2="1058" y2="226" stroke="#FFFFFF" stroke-opacity=".08"/>
-            <circle cx="968" cy="237" r="4" fill="#ED8B00" filter="url(#softGlow)">
-                <animate attributeName="opacity" values=".5;1;.5" dur="2s" begin="1.2s" repeatCount="indefinite"/>
-            </circle>
-            <text x="980" y="241" fill="#EDF4FF" font-weight="700">KAFKA</text>
+            <text x="976" y="132" fill="#EAF2FF" font-weight="600">KAFKA</text>
         </g>
     </g>
     <!-- BUILD STATUS                                          -->
