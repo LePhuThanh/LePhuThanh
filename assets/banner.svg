@@ -71,6 +71,14 @@
             </stop>
         </linearGradient>
     </defs>
+    <linearGradient id="shimmerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="transparent"/>
+        <stop offset="45%" stop-color="transparent"/>
+        <stop offset="50%" stop-color="#FFFFFF"/>
+        <stop offset="55%" stop-color="transparent"/>
+        <stop offset="100%" stop-color="transparent"/>
+        <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1.8 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
     <!-- BACKGROUND                                            -->
     <rect width="1200" height="320" fill="url(#bgGradient)"/>
     <!-- GRID LAYER                                            -->
@@ -108,47 +116,143 @@
     <!-- ===================================================== -->
     <g id="network">
         <!-- CONNECTIONS           -->
+        <!-- flow1 -->
         <path id="flow1" d="M170 95 L310 95 L420 140" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
+        <path d="M170 95 L310 95 L420 140" fill="none" stroke="#58A6FF" stroke-width="2" opacity=".25" stroke-dasharray="20 120">
+            <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
+        </path>
+        <!-- flow2 -->
         <path id="flow2" d="M420 140 L580 80" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
+        <path d="M420 140 L580 80" fill="none" stroke="#58A6FF" stroke-width="2" opacity=".25" stroke-dasharray="20 120">
+            <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
+        </path>
+        <!-- flow3 -->
         <path id="flow3" d="M580 80 L760 90" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
+        <path d="M580 80 L760 90" fill="none" stroke="#58A6FF" stroke-width="2" opacity=".25" stroke-dasharray="20 120">
+            <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
+        </path>
+        <!-- flow4 -->
         <path id="flow4" d="M580 80 L760 190" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
+        <path d="M580 80 L760 190" fill="none" stroke="#58A6FF" stroke-width="2" opacity=".25" stroke-dasharray="20 120">
+            <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
+        </path>
+        <!-- flow5 -->
         <path id="flow5" d="M760 90 L920 90" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
+        <path d="M760 90 L920 90" fill="none" stroke="#58A6FF" stroke-width="2" opacity=".25" stroke-dasharray="20 120">
+            <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
+        </path>
+        <!-- flow6 -->
         <path id="flow6" d="M760 190 L920 190" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
-        <!-- GATEWAY               -->
+        <path d="M760 190 L920 190" fill="none" stroke="#58A6FF" stroke-width="2" opacity=".25" stroke-dasharray="20 120">
+            <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
+        </path>
+        <!--================ API GATEWAY ================-->
+        <circle cx="760" cy="90" r="14" fill="#58A6FF" opacity=".10" filter="url(#softGlow)">
+            <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
+        </circle>
         <circle cx="170" cy="95" r="7" fill="#58A6FF" filter="url(#blueGlow)">
             <animate attributeName="r" values="7;8;7" dur="3s" repeatCount="indefinite"/>
         </circle>
-        <!-- SPRING BOOT           -->
+        <!-- API Gateway Pulse Ring -->
+        <circle cx="170" cy="95" r="8" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0" filter="url(#softGlow)">
+            <animate attributeName="r" values="8;18" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".75;0" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <!--================ SPRING BOOT ================-->
+        <circle cx="760" cy="90" r="14" fill="#6DB33F" opacity=".10" filter="url(#softGlow)">
+            <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
+        </circle>
         <circle cx="310" cy="95" r="7" fill="#6DB33F" filter="url(#blueGlow)">
             <animate attributeName="r" values="7;8;7" dur="3s" begin="0.5s" repeatCount="indefinite"/>
         </circle>
-        <!-- MICROSERVICE HUB      -->
+        <!-- Spring Boot Pulse Ring -->
+        <circle cx="310" cy="95" r="8" fill="none" stroke="#6DB33F" stroke-width="2" opacity="0" filter="url(#softGlow)">
+            <animate attributeName="r" values="8;18" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".75;0" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+        </circle>
+        <!--================ MICROSERVICE HUB ================-->
+        <circle cx="760" cy="90" r="14" fill="#58A6FF" opacity=".10" filter="url(#softGlow)">
+            <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
+        </circle>
         <circle cx="420" cy="140" r="8" fill="#58A6FF" filter="url(#blueGlow)">
             <animate attributeName="r" values="8;9;8" dur="3s" begin="1s" repeatCount="indefinite"/>
         </circle>
-        <!-- SERVICE BUS           -->
+        <!-- Microservice Service Pulse Ring -->
+        <circle cx="420" cy="140" r="9" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0" filter="url(#softGlow)">
+            <animate attributeName="r" values="9;20" dur="3s" begin="1s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".75;0" dur="3s" begin="1s" repeatCount="indefinite"/>
+        </circle>
+        <!--================ SERVICE BUS ================-->
+        <circle cx="760" cy="90" r="14" fill="#58A6FF" opacity=".10" filter="url(#softGlow)">
+            <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
+        </circle>
         <circle cx="580" cy="80" r="8" fill="#58A6FF" filter="url(#blueGlow)">
             <animate attributeName="r" values="8;9;8" dur="3s" begin="1.5s" repeatCount="indefinite"/>
         </circle>
-        <!-- KAFKA -->
+        <!-- Service Bus Pulse Ring -->
+        <circle cx="580" cy="80" r="9" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0" filter="url(#softGlow)">
+            <animate attributeName="r" values="9;20" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".75;0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+        </circle>
+        <!--================ KAFKA ================-->
+        <circle cx="760" cy="90" r="14" fill="#ED8B00" opacity=".10" filter="url(#softGlow)">
+            <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
+        </circle>
         <circle cx="760" cy="90" r="7" fill="#ED8B00" filter="url(#blueGlow)">
             <animate attributeName="r" values="7;8.6;7" dur="3s" begin="2s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".65;1;.65" dur="3s" begin="2s" repeatCount="indefinite"/>
         </circle>
-        <!-- REDIS                 -->
+        <!-- Kafka Pulse Ring -->
+        <circle cx="760" cy="90" r="8" fill="none" stroke="#ED8B00" stroke-width="2" opacity="0" filter="url(#softGlow)">
+            <animate attributeName="r" values="8;18" dur="3s" begin="2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".75;0" dur="3s" begin="2s" repeatCount="indefinite"/>
+        </circle>
+        <!--================ REDIS ================-->
+        <circle cx="760" cy="90" r="14" fill="#DC2626" opacity=".10" filter="url(#softGlow)">
+            <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
+        </circle>
         <circle cx="760" cy="190" r="7" fill="#DC2626" filter="url(#blueGlow)">
             <animate attributeName="r" values="7;8.6;7" dur="3s" begin="2.3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".65;1;.65" dur="3s" begin="2.3s" repeatCount="indefinite"/>
         </circle>
-        <!-- DATABASE              -->
+        <!-- Redis Pulse Ring -->
+        <circle cx="760" cy="190" r="8" fill="none" stroke="#DC2626" stroke-width="2" opacity="0" filter="url(#softGlow)">
+            <animate attributeName="r" values="8;18" dur="3s" begin="2.3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".75;0" dur="3s" begin="2.3s" repeatCount="indefinite"/>
+        </circle>
+        <!--================ DATABASE ================-->
+        <circle cx="760" cy="90" r="14" fill="#3FB950" opacity=".10" filter="url(#softGlow)">
+            <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
+        </circle>
         <circle cx="920" cy="90" r="7" fill="#3FB950" filter="url(#blueGlow)">
             <animate attributeName="r" values="7;8.6;7" dur="3s" begin="2.6s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".65;1;.65" dur="3s" begin="2.6s" repeatCount="indefinite"/>
         </circle>
-        <!-- KUBERNETES            -->
+        <!-- Database Pulse Ring -->
+        <circle cx="920" cy="90" r="8" fill="none" stroke="#3FB950" stroke-width="2" opacity="0" filter="url(#softGlow)">
+            <animate attributeName="r" values="8;18" dur="3s" begin="2.6s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".75;0" dur="3s" begin="2.6s" repeatCount="indefinite"/>
+        </circle>
+        <!--================ KUBERNETES ================-->
+        <circle cx="760" cy="90" r="14" fill="#7C3AED" opacity=".10" filter="url(#softGlow)">
+            <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
+        </circle>
         <circle cx="920" cy="190" r="7" fill="#7C3AED" filter="url(#blueGlow)">
             <animate attributeName="r" values="7;8.6;7" dur="3s" begin="2.9s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".65;1;.65" dur="3s" begin="2.9s" repeatCount="indefinite"/>
+        </circle>
+        <!-- Kubernetes Pulse Ring -->
+        <circle cx="920" cy="190" r="8" fill="none" stroke="#7C3AED" stroke-width="2" opacity="0" filter="url(#softGlow)">
+            <animate attributeName="r" values="8;18" dur="3s" begin="2.9s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values=".75;0" dur="3s" begin="2.9s" repeatCount="indefinite"/>
         </circle>
     </g>
     <!-- ===================================================== -->
@@ -218,6 +322,10 @@
             <animate attributeName="letter-spacing" values="6;8;6" dur="5s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".88;1;.88" dur="4s" repeatCount="indefinite"/>
         </text>
+        <!-- Shimmer -->
+        <text x="600" y="160" text-anchor="middle" font-family="Orbitron, Exo 2" font-size="54" font-weight="900" letter-spacing="7" fill="url(#shimmerGradient)" opacity=".65">
+            PHELIM
+        </text>
         <!-- Accent Line -->
         <line x1="505" y1="174" x2="695" y2="174" stroke="#58A6FF" stroke-width="2" stroke-linecap="round">
             <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
@@ -231,19 +339,19 @@
     <!-- STATUS BADGES                                         -->
     <!-- ===================================================== -->
     <g font-family="Segoe UI" font-size="12">
-        <!-- Java -->
+        <!-- JAVA -->
         <rect x="960" y="118" width="95" height="26" rx="11" fill="#1B222C" stroke="#3B4450"/>
         <circle cx="974" cy="131" r="4" fill="#3FB950"/>
         <text x="986" y="135" fill="#E6EDF3">JAVA 21</text>
-        <!-- Spring -->
+        <!-- SPRING -->
         <rect x="960" y="152" width="96" height="26" rx="11" fill="#1B222C" stroke="#3B4450"/>
         <circle cx="974" cy="165" r="4" fill="#3FB950"/>
         <text x="986" y="169" fill="#E6EDF3">SPRING</text>
-        <!-- Cloud -->
+        <!-- CLOUD -->
         <rect x="960" y="186" width="96" height="26" rx="11" fill="#1B222C" stroke="#3B4450"/>
         <circle cx="974" cy="199" r="4" fill="#3FB950"/>
         <text x="986" y="203" fill="#E6EDF3">CLOUD</text>
-        <!-- Kafka -->
+        <!-- KAFKA -->
         <rect x="960" y="220" width="96" height="26" rx="11" fill="#1B222C" stroke="#3B4450"/>
         <circle cx="974" cy="233" r="4" fill="#3FB950"/>
         <text x="986" y="237" fill="#E6EDF3">KAFKA</text>
