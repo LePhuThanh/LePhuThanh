@@ -301,9 +301,9 @@
         <text x="377" y="120">SERVICE</text>
         <text x="548" y="60">BUS</text>
         <text x="733" y="68">KAFKA</text>
-        <text x="756" y="222">REDIS</text>
+        <text x="782" y="227">REDIS</text>
         <text x="885" y="68">DATABASE</text>
-        <text x="875" y="225">K8S</text>
+        <text x="880" y="225">K8S</text>
     </g>
     <!-- NETWORK AMBIENT LINES                                -->
     <g opacity="0.15">
