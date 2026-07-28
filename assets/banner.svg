@@ -63,11 +63,14 @@
             <circle cx="2" cy="2" r="1" fill="#30363D" opacity="0.20"/>
         </pattern>
         <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#FFFFFF">
-                <animate attributeName="stop-color" values="#FFFFFF;#8BD5FF;#FFFFFF" dur="6s" repeatCount="indefinite"/>
+            <stop offset="0%" stop-color="#F8FAFF">
+                <animate attributeName="stop-color" values="#FFFFFF;#D8E8FF;#FFFFFF" dur="8s" repeatCount="indefinite"/>
             </stop>
-            <stop offset="100%" stop-color="#58A6FF">
-                <animate attributeName="stop-color" values="#58A6FF;#8A6BFF;#58A6FF" dur="6s" repeatCount="indefinite"/>
+            <stop offset="45%" stop-color="#A5B4FC">
+                <animate attributeName="stop-color" values="#A5B4FC;#C084FC;#A5B4FC" dur="8s" repeatCount="indefinite"/>
+            </stop>
+            <stop offset="100%" stop-color="#60A5FA">
+                <animate attributeName="stop-color" values="#60A5FA;#38BDF8;#60A5FA" dur="8s" repeatCount="indefinite"/>
             </stop>
         </linearGradient>
     </defs>
@@ -147,7 +150,7 @@
             <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
         </path>
         <!--================ API GATEWAY ================-->
-        <circle cx="760" cy="90" r="14" fill="#58A6FF" opacity=".10" filter="url(#softGlow)">
+        <circle cx="170" cy="95" r="14" fill="#58A6FF" opacity=".10" filter="url(#softGlow)">
             <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
         </circle>
@@ -160,7 +163,7 @@
             <animate attributeName="opacity" values=".75;0" dur="3s" repeatCount="indefinite"/>
         </circle>
         <!--================ SPRING BOOT ================-->
-        <circle cx="760" cy="90" r="14" fill="#6DB33F" opacity=".10" filter="url(#softGlow)">
+        <circle cx="310" cy="95" r="14" fill="#6DB33F" opacity=".10" filter="url(#softGlow)">
             <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
         </circle>
@@ -173,7 +176,7 @@
             <animate attributeName="opacity" values=".75;0" dur="3s" begin="0.5s" repeatCount="indefinite"/>
         </circle>
         <!--================ MICROSERVICE HUB ================-->
-        <circle cx="760" cy="90" r="14" fill="#58A6FF" opacity=".10" filter="url(#softGlow)">
+        <circle cx="420" cy="140" r="14" fill="#58A6FF" opacity=".10" filter="url(#softGlow)">
             <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
         </circle>
@@ -186,7 +189,7 @@
             <animate attributeName="opacity" values=".75;0" dur="3s" begin="1s" repeatCount="indefinite"/>
         </circle>
         <!--================ SERVICE BUS ================-->
-        <circle cx="760" cy="90" r="14" fill="#58A6FF" opacity=".10" filter="url(#softGlow)">
+        <circle cx="580" cy="80" r="14" fill="#58A6FF" opacity=".10" filter="url(#softGlow)">
             <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
         </circle>
@@ -213,21 +216,21 @@
             <animate attributeName="opacity" values=".75;0" dur="3s" begin="2s" repeatCount="indefinite"/>
         </circle>
         <!--================ REDIS ================-->
-        <circle cx="760" cy="90" r="14" fill="#DC2626" opacity=".10" filter="url(#softGlow)">
+        <circle cx="780" cy="200" r="14" fill="#DC2626" opacity=".10" filter="url(#softGlow)">
             <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
         </circle>
-        <circle cx="760" cy="190" r="7" fill="#DC2626" filter="url(#blueGlow)">
+        <circle cx="780" cy="200" r="7" fill="#DC2626" filter="url(#blueGlow)">
             <animate attributeName="r" values="7;8.6;7" dur="3s" begin="2.3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".65;1;.65" dur="3s" begin="2.3s" repeatCount="indefinite"/>
         </circle>
         <!-- Redis Pulse Ring -->
-        <circle cx="760" cy="190" r="8" fill="none" stroke="#DC2626" stroke-width="2" opacity="0" filter="url(#softGlow)">
+        <circle cx="780" cy="200" r="8" fill="none" stroke="#DC2626" stroke-width="2" opacity="0" filter="url(#softGlow)">
             <animate attributeName="r" values="8;18" dur="3s" begin="2.3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".75;0" dur="3s" begin="2.3s" repeatCount="indefinite"/>
         </circle>
         <!--================ DATABASE ================-->
-        <circle cx="760" cy="90" r="14" fill="#3FB950" opacity=".10" filter="url(#softGlow)">
+        <circle cx="920" cy="90" r="14" fill="#3FB950" opacity=".10" filter="url(#softGlow)">
             <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
         </circle>
@@ -241,7 +244,7 @@
             <animate attributeName="opacity" values=".75;0" dur="3s" begin="2.6s" repeatCount="indefinite"/>
         </circle>
         <!--================ KUBERNETES ================-->
-        <circle cx="760" cy="90" r="14" fill="#7C3AED" opacity=".10" filter="url(#softGlow)">
+        <circle cx="920" cy="190" r="14" fill="#7C3AED" opacity=".10" filter="url(#softGlow)">
             <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
         </circle>
@@ -298,7 +301,7 @@
         <text x="377" y="120">SERVICE</text>
         <text x="548" y="60">BUS</text>
         <text x="733" y="68">KAFKA</text>
-        <text x="733" y="214">REDIS</text>
+        <text x="756" y="222">REDIS</text>
         <text x="885" y="68">DATABASE</text>
         <text x="867" y="214">K8S</text>
     </g>
@@ -350,23 +353,43 @@
     <!-- ===================================================== -->
     <!-- STATUS BADGES                                         -->
     <!-- ===================================================== -->
-    <g font-family="Segoe UI" font-size="12">
-        <!-- JAVA -->
-        <rect x="960" y="118" width="95" height="26" rx="11" fill="#1B222C" stroke="#3B4450"/>
-        <circle cx="974" cy="131" r="4" fill="#3FB950"/>
-        <text x="986" y="135" fill="#E6EDF3">JAVA 21</text>
-        <!-- SPRING -->
-        <rect x="960" y="152" width="96" height="26" rx="11" fill="#1B222C" stroke="#3B4450"/>
-        <circle cx="974" cy="165" r="4" fill="#3FB950"/>
-        <text x="986" y="169" fill="#E6EDF3">SPRING</text>
-        <!-- CLOUD -->
-        <rect x="960" y="186" width="96" height="26" rx="11" fill="#1B222C" stroke="#3B4450"/>
-        <circle cx="974" cy="199" r="4" fill="#3FB950"/>
-        <text x="986" y="203" fill="#E6EDF3">CLOUD</text>
-        <!-- KAFKA -->
-        <rect x="960" y="220" width="96" height="26" rx="11" fill="#1B222C" stroke="#3B4450"/>
-        <circle cx="974" cy="233" r="4" fill="#3FB950"/>
-        <text x="986" y="237" fill="#E6EDF3">KAFKA</text>
+    <g id="statusBadges" font-family="Inter, Segoe UI" font-size="12">
+        <!-- JAVA ------------------------------------------------>
+        <g>
+            <rect x="950" y="114" width="118" height="30" rx="15" fill="#58A6FF" stroke="#4A5D78" stroke-width="1"/>
+            <line x1="960" y1="118" x2="1058" y2="118" stroke="#FFFFFF" stroke-opacity=".08"/>
+            <circle cx="968" cy="129" r="4" fill="#58A6FF" filter="url(#softGlow)">
+                <animate attributeName="opacity" values=".5;1;.5" dur="2s" repeatCount="indefinite"/>
+            </circle>
+            <text x="980" y="133" fill="#EDF4FF" font-weight="700">JAVA 21</text>
+        </g>
+        <!-- SPRING ---------------------------------------------->
+        <g>
+            <rect x="950" y="150" width="118" height="30" rx="15" fill="#6DB33F" stroke="#4A5D78"/>
+            <line x1="960" y1="154" x2="1058" y2="154" stroke="#FFFFFF" stroke-opacity=".08"/>
+            <circle cx="968" cy="165" r="4" fill="#6DB33F" filter="url(#softGlow)">
+                <animate attributeName="opacity" values=".5;1;.5" dur="2s" begin=".4s" repeatCount="indefinite"/>
+            </circle>
+            <text x="980" y="169" fill="#EDF4FF" font-weight="700">SPRING</text>
+        </g>
+        <!-- CLOUD ---------------------------------------------->
+        <g>
+            <rect x="950" y="186" width="118" height="30" rx="15" fill="#38BDF8" stroke="#4A5D78"/>
+            <line x1="960" y1="190" x2="1058" y2="190" stroke="#FFFFFF" stroke-opacity=".08"/>
+            <circle cx="968" cy="201" r="4" fill="#38BDF8" filter="url(#softGlow)">
+                <animate attributeName="opacity" values=".5;1;.5" dur="2s" begin=".8s" repeatCount="indefinite"/>
+            </circle>
+            <text x="980" y="205" fill="#EDF4FF" font-weight="700">CLOUD</text>
+        </g>
+        <!-- KAFKA ---------------------------------------------->
+        <g>
+            <rect x="950" y="222" width="118" height="30" rx="15" fill="#ED8B00" stroke="#4A5D78"/>
+            <line x1="960" y1="226" x2="1058" y2="226" stroke="#FFFFFF" stroke-opacity=".08"/>
+            <circle cx="968" cy="237" r="4" fill="#ED8B00" filter="url(#softGlow)">
+                <animate attributeName="opacity" values=".5;1;.5" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+            </circle>
+            <text x="980" y="241" fill="#EDF4FF" font-weight="700">KAFKA</text>
+        </g>
     </g>
     <!-- BUILD STATUS                                          -->
     <g font-family="Consolas" font-size="12">
