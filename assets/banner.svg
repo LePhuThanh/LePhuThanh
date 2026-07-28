@@ -298,12 +298,12 @@
     <g font-family="Inter, Segoe UI, IBM Plex Sans" font-size="13.5" font-weight="600" fill="#B8C3D1" letter-spacing="1.4">
         <text x="138" y="76">API</text>
         <text x="275" y="76">SPRING</text>
-        <text x="377" y="120">SERVICE</text>
-        <text x="548" y="60">BUS</text>
+        <text x="390" y="116">SERVICE</text>
+        <text x="580" y="58">BUS</text>
         <text x="733" y="68">KAFKA</text>
-        <text x="782" y="227">REDIS</text>
+        <text x="800" y="228">REDIS</text>
         <text x="885" y="68">DATABASE</text>
-        <text x="880" y="225">K8S</text>
+        <text x="920" y="213">K8S</text>
     </g>
     <!-- NETWORK AMBIENT LINES                                -->
     <g opacity="0.15">
