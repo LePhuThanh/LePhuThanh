@@ -282,23 +282,21 @@
     <!-- DEPLOY CELEBRATION                                    -->
     <!-- ===================================================== -->
     <g id="deploy-celebration">
-        <!-- Particle 1 -->
-        <circle cx="206" cy="34" r="0.9" fill="#FFFFFF" opacity="0">
-            <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.85;0.90;1" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="cy" values="34;34;28;24" keyTimes="0;0.85;0.92;1" dur="6s" repeatCount="indefinite"/>
-        </circle>
-        <!-- Particle 2 -->
-        <circle cx="202" cy="36" r="0.8" fill="#BFF7FF" opacity="0">
-            <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.865;0.92;1" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="cy" values="36;36;31;26" keyTimes="0;0.865;0.94;1" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="cx" values="202;201;199;198" keyTimes="0;0.865;0.94;1" dur="6s" repeatCount="indefinite"/>
-        </circle>
-        <!-- Particle 3 -->
-        <circle cx="210" cy="36" r="0.8" fill="#7EE787" opacity="0">
-            <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.875;0.93;1" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="cy" values="36;36;31;26" keyTimes="0;0.875;0.95;1" dur="6s" repeatCount="indefinite"/>
-            <animate attributeName="cx" values="210;211;213;214" keyTimes="0;0.875;0.95;1" dur="6s" repeatCount="indefinite"/>
-        </circle>
+        <!-- ================= Particle 1 ================= -->
+        <path d="M0-1 L1 0 L0 1 L-1 0 Z" fill="#FFFFFF" opacity="0" transform="translate(206 34) scale(1.1)">
+            <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.85;0.91;1" dur="6s" repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" type="translate" additive="replace" values="206 34;206 34;206 28;206 23" keyTimes="0;0.85;0.93;1" dur="6s" repeatCount="indefinite"/>
+        </path>
+        <!-- ================= Particle 2 ================= -->
+        <path d="M0-1 L1 0 L0 1 L-1 0 Z" fill="#BFF7FF" opacity="0" transform="translate(202 36) scale(0.95)">
+            <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.865;0.925;1" dur="6s" repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" type="translate" additive="replace" values="202 36;202 36;199 30;197 25" keyTimes="0;0.865;0.94;1" dur="6s" repeatCount="indefinite"/>
+        </path>
+        <!-- ================= Particle 3 ================= -->
+        <path d="M0-1 L1 0 L0 1 L-1 0 Z" fill="#7EE787" opacity="0" transform="translate(210 36) scale(0.95)">
+            <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.875;0.935;1" dur="6s" repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" type="translate" additive="replace" values="210 36;210 36;213 30;215 25" keyTimes="0;0.875;0.95;1" dur="6s" repeatCount="indefinite"/>
+        </path>
     </g>
     <!-- ===================================================== -->
     <!-- ENERGY FLOW                                           -->
