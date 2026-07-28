@@ -216,7 +216,7 @@
             <animate attributeName="opacity" values=".75;0" dur="3s" begin="2s" repeatCount="indefinite"/>
         </circle>
         <!--================ REDIS ================-->
-        <circle cx="780" cy="200" r="14" fill="#DC2626" opacity=".10" filter="url(#softGlow)">
+        <circle cx="800" cy="205" r="14" fill="#DC2626" opacity=".10" filter="url(#softGlow)">
             <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values=".08;.18;.08" dur="3s" repeatCount="indefinite"/>
         </circle>
