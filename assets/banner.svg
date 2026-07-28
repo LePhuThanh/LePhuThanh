@@ -296,7 +296,7 @@
     <!-- LABELS                                                -->
     <!-- ===================================================== -->
     <g font-family="Inter, Segoe UI, IBM Plex Sans" font-size="13.5" font-weight="600" fill="#B8C3D1" letter-spacing="1.4">
-        <text x="138" y="76">API</text>
+        <text x="145" y="74">API</text>
         <text x="275" y="76">SPRING</text>
         <text x="390" y="116">SERVICE</text>
         <text x="560" y="58">BUS</text>
