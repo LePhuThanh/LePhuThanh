@@ -106,7 +106,6 @@
         <path id="flow4" d="M580 80 L760 190" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
         <path id="flow5" d="M760 90 L920 90" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
         <path id="flow6" d="M760 190 L920 190" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
-    </g>
         <!-- GATEWAY               -->
         <circle cx="170" cy="95" r="7" fill="#58A6FF" filter="url(#blueGlow)">
             <animate attributeName="r" values="7;8;7" dur="3s" repeatCount="indefinite"/>
