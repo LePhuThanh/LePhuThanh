@@ -73,15 +73,15 @@
                 <animate attributeName="stop-color" values="#60A5FA;#38BDF8;#60A5FA" dur="8s" repeatCount="indefinite"/>
             </stop>
         </linearGradient>
+        <linearGradient id="shimmerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="transparent"/>
+            <stop offset="45%" stop-color="transparent"/>
+            <stop offset="50%" stop-color="#FFFFFF"/>
+            <stop offset="55%" stop-color="transparent"/>
+            <stop offset="100%" stop-color="transparent"/>
+            <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1.8 0" dur="5s" repeatCount="indefinite"/>
+        </linearGradient>
     </defs>
-    <linearGradient id="shimmerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="transparent"/>
-        <stop offset="45%" stop-color="transparent"/>
-        <stop offset="50%" stop-color="#FFFFFF"/>
-        <stop offset="55%" stop-color="transparent"/>
-        <stop offset="100%" stop-color="transparent"/>
-        <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1.8 0" dur="5s" repeatCount="indefinite"/>
-    </linearGradient>
     <!-- BACKGROUND                                            -->
     <rect width="1200" height="320" fill="url(#bgGradient)"/>
     <!-- GRID LAYER                                            -->
@@ -135,7 +135,7 @@
             <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
         </path>
         <!-- flow4 -->
-        <path id="flow4" d="M580 80 L760 190" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
+        <path id="flow4" d="M580 80 L780 200" fill="none" stroke="#2F81F7" stroke-opacity="0.14" stroke-width="2"/>
         <path d="M580 80 L760 190" fill="none" stroke="#58A6FF" stroke-width="2" opacity=".25" stroke-dasharray="20 120">
             <animate attributeName="stroke-dashoffset" values="140;0" dur="2s" repeatCount="indefinite"/>
         </path>
