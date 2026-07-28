@@ -361,7 +361,7 @@
     <circle cx="966" cy="128" r="3" fill="#58A6FF" filter="url(#softGlow)">
     <animate attributeName="opacity" values=".4;1;.4" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <text x="976" y="132" fill="#EAF2FF" font-weight="600" letter-spacing=".3">JAVA 21</text>
+    <text x="976" y="132" fill="#EAF2FF" font-weight="600" letter-spacing=".3">JAVA</text>
     </g>
         <!--SPRING-->
         <g transform="translate(0 34)">
